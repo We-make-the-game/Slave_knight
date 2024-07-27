@@ -32,7 +32,7 @@ public class CharacterControl : MonoBehaviour
             Jump();
         }        
         //人物速度
-        rb.velocity = new Vector2(moveX * speed, rb.velocity.y);
+        rb.velocity = new Vector3(moveX * speed, rb.velocity.y, 0);
         // 根据行走方向改变人物动画方向
         if (moveX > 0)
         {
@@ -44,6 +44,12 @@ public class CharacterControl : MonoBehaviour
         }
         //传递speed参数给animator controller
         playerAni.SetFloat("speed", Mathf.Abs(moveX));
+
+        // 确保在地面时，重置跳跃状态
+        if (isOnGround && !playerAni.GetCurrentAnimatorStateInfo(0).IsName("Jump"))
+        {
+            playerAni.SetBool("jump", false);
+        }
     }
 
 
@@ -57,7 +63,7 @@ public class CharacterControl : MonoBehaviour
         //在地面上跳跃 or  //在空中跳跃
         if (isOnGround || (jumpCount > 0 && !isOnGround))
         {
-            rb.AddForce(new Vector2(0f, jumpForce));
+            rb.AddForce(new Vector3(0f, jumpForce, 0f));
             playerAni.SetTrigger("jump");
             isOnGround = false;
             jumpCount--;
@@ -65,7 +71,7 @@ public class CharacterControl : MonoBehaviour
     }
 
     // 碰撞持续时调用
-    private void OnCollisionStay2D(Collision2D collision)
+    private void OnCollisionStay(Collision collision)
     {
         // 如果碰撞对象有Ground标签，设置isOnGround为true
         if (collision.gameObject.CompareTag("Ground"))
@@ -75,7 +81,7 @@ public class CharacterControl : MonoBehaviour
     }
 
     // 碰撞结束时调用
-    private void OnCollisionExit2D(Collision2D collision)
+    private void OnCollisionExit(Collision collision)
     {
         // 如果离开碰撞对象有Ground标签，设置isOnGround为false
         if (collision.gameObject.CompareTag("Ground"))
