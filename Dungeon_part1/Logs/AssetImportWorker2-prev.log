@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.33f1\Editor\Unity.exe
 -name
 AssetImportWorker2
 -projectPath
-D:/Slave_Knight/Dungeon_part1
+D:/Slave_Knight/Slave_knight/Dungeon_part1
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-51940
-Successfully changed project path to: D:/Slave_Knight/Dungeon_part1
-D:/Slave_Knight/Dungeon_part1
+54490
+Successfully changed project path to: D:/Slave_Knight/Slave_knight/Dungeon_part1
+D:/Slave_Knight/Slave_knight/Dungeon_part1
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,16 +49,16 @@ D:/Slave_Knight/Dungeon_part1
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [34904] Host "[IP] 192.168.1.103 [Port] 0 [Flags] 2 [Guid] 2238332497 [EditorId] 2238332497 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IT94I1T) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [25352] Host "[IP] 192.168.1.103 [Port] 0 [Flags] 2 [Guid] 4152771932 [EditorId] 4152771932 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IT94I1T) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [34904] Host "[IP] 192.168.1.103 [Port] 0 [Flags] 2 [Guid] 2238332497 [EditorId] 2238332497 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IT94I1T) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [25352] Host "[IP] 192.168.1.103 [Port] 0 [Flags] 2 [Guid] 4152771932 [EditorId] 4152771932 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IT94I1T) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Refreshing native plugins compatible for Editor in 18.19 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 17.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.33f1 (b2c853adf198)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Slave_Knight/Dungeon_part1/Assets
+[Subsystems] Discovering subsystems at path D:/Slave_Knight/Slave_knight/Dungeon_part1/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -70,19 +70,19 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56688
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56620
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.014008 seconds.
-- Loaded All Assemblies, in  0.411 seconds
+Registered in 0.013903 seconds.
+- Loaded All Assemblies, in  0.406 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.266 seconds
-Domain Reload Profiling: 674ms
-	BeginReloadAssembly (135ms)
+- Finished resetting the current domain, in  0.287 seconds
+Domain Reload Profiling: 690ms
+	BeginReloadAssembly (142ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
@@ -90,26 +90,26 @@ Domain Reload Profiling: 674ms
 		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (35ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (71ms)
-	LoadAllAssembliesAndSetupDomain (155ms)
-		LoadAssemblies (132ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (144ms)
+		LoadAssemblies (138ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (152ms)
-			TypeCache.Refresh (151ms)
-				TypeCache.ScanAssembly (136ms)
+		AnalyzeDomain (142ms)
+			TypeCache.Refresh (141ms)
+				TypeCache.ScanAssembly (127ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (266ms)
+	FinalizeReload (288ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (209ms)
+		SetupLoadedEditorAssemblies (222ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (5ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (141ms)
-			ProcessInitializeOnLoadMethodAttributes (48ms)
+			ProcessInitializeOnLoadAttributes (148ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,8 +117,8 @@ Domain Reload Profiling: 674ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.655 seconds
-Refreshing native plugins compatible for Editor in 3.15 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.659 seconds
+Refreshing native plugins compatible for Editor in 2.97 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -126,47 +126,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.613 seconds
-Domain Reload Profiling: 1264ms
-	BeginReloadAssembly (176ms)
+- Finished resetting the current domain, in  0.602 seconds
+Domain Reload Profiling: 1257ms
+	BeginReloadAssembly (157ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (20ms)
-	RebuildCommonClasses (37ms)
+	RebuildCommonClasses (32ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (377ms)
-		LoadAssemblies (317ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (408ms)
+		LoadAssemblies (323ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (174ms)
-			TypeCache.Refresh (153ms)
-				TypeCache.ScanAssembly (140ms)
+		AnalyzeDomain (182ms)
+			TypeCache.Refresh (162ms)
+				TypeCache.ScanAssembly (148ms)
 			ScanForSourceGeneratedMonoScriptInfo (14ms)
 			ResolveRequiredComponents (5ms)
-	FinalizeReload (613ms)
+	FinalizeReload (602ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (466ms)
+		SetupLoadedEditorAssemblies (442ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (61ms)
-			ProcessInitializeOnLoadAttributes (336ms)
-			ProcessInitializeOnLoadMethodAttributes (28ms)
-			AfterProcessingInitializeOnLoad (21ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (330ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (16ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 2.91 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 4.39 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3095 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 32 unused Assets / (30.3 KB). Loaded Objects now: 3582.
-Memory consumption went from 138.1 MB to 138.1 MB.
-Total: 2.880600 ms (FindLiveObjects: 0.236500 ms CreateObjectMapping: 0.171200 ms MarkObjects: 2.425500 ms  DeleteObjects: 0.046800 ms)
+Memory consumption went from 138.0 MB to 138.0 MB.
+Total: 2.796100 ms (FindLiveObjects: 0.236600 ms CreateObjectMapping: 0.216200 ms MarkObjects: 2.286800 ms  DeleteObjects: 0.055400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -184,241 +184,111 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 4341295.861440 seconds.
-  path: Assets/Scenes/dungeon_ground.unity
-  artifactKey: Guid(1a5a8ddc72123c84e89bc45c10fab321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/dungeon_ground.unity using Guid(1a5a8ddc72123c84e89bc45c10fab321) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '1585043f64e0d6aedd6d526f12c1fd87') in 0.003274 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 22.090538 seconds.
-  path: Assets/Scenes/dungeon_underground.unity
-  artifactKey: Guid(ac019ba97ab8b1348b74726a05282989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/dungeon_underground.unity using Guid(ac019ba97ab8b1348b74726a05282989) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '915c3d50841924e05f4908e64da2203c') in 0.000404 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 38.894253 seconds.
-  path: Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Props/Flags
-  artifactKey: Guid(b52acd114b3002b4f9ff31e7c1e7a3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Props/Flags using Guid(b52acd114b3002b4f9ff31e7c1e7a3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '3b333ca32ab4375b9490b2cb0aed707e') in 0.000415 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 837.955994 seconds.
-  path: Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Items
-  artifactKey: Guid(21897b1e87b565a4c8556f8aba51670e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Items using Guid(21897b1e87b565a4c8556f8aba51670e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '40ab12101f846a649066621891a2dd29') in 0.000601 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 38.278997 seconds.
-  path: Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/Traps
-  artifactKey: Guid(19a2ce6103971a04cadb2e0f9fe223c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/Traps using Guid(19a2ce6103971a04cadb2e0f9fe223c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '9297a0203d5dee94896693907bb186da') in 0.000431 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 6.884637 seconds.
-  path: Assets/PolygonDungeon/Prefabs/Characters/FixedScale/Character_Goblin_WarChief_FixedScale.prefab
-  artifactKey: Guid(9877270705d01b540aeaa38895b9f95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Prefabs/Characters/FixedScale/Character_Goblin_WarChief_FixedScale.prefab using Guid(9877270705d01b540aeaa38895b9f95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '786accaa3098b1debca7f01902a28d82') in 0.183241 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 232
-========================================================================
-Received Import Request.
-  Time since last request: 0.298667 seconds.
-  path: Assets/PolygonDungeon/Models/SM_Prop_Metal_Fence_Weak_01.fbx
-  artifactKey: Guid(4c25fbbbfc9e4dc4cb0f562ec1e9ce7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Models/SM_Prop_Metal_Fence_Weak_01.fbx using Guid(4c25fbbbfc9e4dc4cb0f562ec1e9ce7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 4481666.929497 seconds.
+  path: Assets/PolygonDungeon/Models/SM_Env_Ground_Pit_01.fbx
+  artifactKey: Guid(92af41a643500a94eb51159b1ad881f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/SM_Env_Ground_Pit_01.fbx using Guid(92af41a643500a94eb51159b1ad881f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'faf0b2a0f397ed2677395645144ea036') in 0.029249 seconds
+ -> (artifact id: 'f9428219c66fe22046f7b653299093f0') in 0.121855 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/PolygonDungeon/Models/SM_Prop_WeaponRack_01.fbx
-  artifactKey: Guid(2a5374982899bfe428654e16d67d761c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Models/SM_Prop_WeaponRack_01.fbx using Guid(2a5374982899bfe428654e16d67d761c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 0.269549 seconds.
+  path: Assets/PolygonDungeon/Models/SM_Env_Grate_Ground_01.fbx
+  artifactKey: Guid(feed3d36b1754f94ab96e698863ebc0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/SM_Env_Grate_Ground_01.fbx using Guid(feed3d36b1754f94ab96e698863ebc0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '0095ab9ffd1e499e76448a72f039bdde') in 0.012799 seconds
+ -> (artifact id: '74959fbf3b6dd97212335ef9d7d398c9') in 0.035481 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 8.208082 seconds.
-  path: Assets/PolygonDungeon/Prefabs/Weapons
-  artifactKey: Guid(b316c7598a1a6374c856fced703e9051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Prefabs/Weapons using Guid(b316c7598a1a6374c856fced703e9051) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'aececf2de43dc98d089ba2285ad272b0') in 0.000571 seconds
+  Time since last request: 699.266005 seconds.
+  path: Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Props
+  artifactKey: Guid(d28bdb4e57fa0a0499c1fd05f8016204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Props using Guid(d28bdb4e57fa0a0499c1fd05f8016204) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1c2c10caee11dd0a3f022f87daac41df') in 0.000675 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 94.106211 seconds.
-  path: Assets/Gridness Studios/Elementary Dungeon Pack/Textures/CandleLight.png
-  artifactKey: Guid(f0b786449b5702045b4e408735ec23bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gridness Studios/Elementary Dungeon Pack/Textures/CandleLight.png using Guid(f0b786449b5702045b4e408735ec23bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'dd6487b2f5bc0002fbc968cc3d396fc7') in 0.047016 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Gridness Studios/Elementary Dungeon Pack/Textures/DungeonTextures@4x.png
-  artifactKey: Guid(6a7ac2bd7bfd897438b21b2ed6162676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gridness Studios/Elementary Dungeon Pack/Textures/DungeonTextures@4x.png using Guid(6a7ac2bd7bfd897438b21b2ed6162676) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '26bbd5946cb743f5db8a0bee61d1de52') in 0.016178 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 145.195262 seconds.
-  path: Assets/PolygonDungeon/Models/SM_Env_Flowers_01.fbx
-  artifactKey: Guid(eb8da2c50ff1021408ea5367eb8d3ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Models/SM_Env_Flowers_01.fbx using Guid(eb8da2c50ff1021408ea5367eb8d3ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 18.657250 seconds.
+  path: Assets/PolygonDungeon/Models/SM_Item_Jar_01.fbx
+  artifactKey: Guid(6b46aaa80c8a6f34bb588376ccf4ea06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/SM_Item_Jar_01.fbx using Guid(6b46aaa80c8a6f34bb588376ccf4ea06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '9a4048957d86db7aec228503b2d2a75e') in 0.013869 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.044013 seconds.
-  path: Assets/PolygonDungeon/Models/SM_Env_Flowers_02.fbx
-  artifactKey: Guid(4e470cdd95f291348bf4b937997e4059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Models/SM_Env_Flowers_02.fbx using Guid(4e470cdd95f291348bf4b937997e4059) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '87cd8168fd3f5501fa7a961b868515d8') in 0.015214 seconds
+ -> (artifact id: '2256ba000d406a7f526cc7b22adcdcbe') in 0.019441 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
-  path: Assets/PolygonDungeon/Models/SM_Env_Sewer_Canal_Corner_01.fbx
-  artifactKey: Guid(ba1a5e419b2fe0d4b87e80dd19de4d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Models/SM_Env_Sewer_Canal_Corner_01.fbx using Guid(ba1a5e419b2fe0d4b87e80dd19de4d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  path: Assets/PolygonDungeon/Models/SM_Item_Jar_02.fbx
+  artifactKey: Guid(51468172f4c8a494ba2679fc657431ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/SM_Item_Jar_02.fbx using Guid(51468172f4c8a494ba2679fc657431ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '635ca4171c117b01f05550b969c350d2') in 0.017750 seconds
+ -> (artifact id: 'b42dfe6b4753f8df3e129751c25e219b') in 0.012823 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/PolygonDungeon/Models/SM_Env_Sewer_Canal_Drain_01.fbx
-  artifactKey: Guid(072f9f1f35cdf1f409133039d2d6cf19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Models/SM_Env_Sewer_Canal_Drain_01.fbx using Guid(072f9f1f35cdf1f409133039d2d6cf19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 199.770734 seconds.
+  path: Assets/PolygonDungeon/Models/SM_Prop_StoneTable_01.fbx
+  artifactKey: Guid(e82f898fad9da224a92c7e7ed772aa02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/SM_Prop_StoneTable_01.fbx using Guid(e82f898fad9da224a92c7e7ed772aa02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '043babd2b2d6c2120744f543910977d4') in 0.013035 seconds
+ -> (artifact id: '339acf7997f6d4ac5720f19ef0981d59') in 0.010303 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/PolygonDungeon/Models/SM_Prop_Goblin_Tower_01.fbx
-  artifactKey: Guid(fd20605a35f8be14fbe7cc1947a297a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Models/SM_Prop_Goblin_Tower_01.fbx using Guid(fd20605a35f8be14fbe7cc1947a297a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 0.041134 seconds.
+  path: Assets/PolygonDungeon/Models/SM_Prop_StoneTable_Broken_01.fbx
+  artifactKey: Guid(34915006884652f4eafc6d87982c5724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/SM_Prop_StoneTable_Broken_01.fbx using Guid(34915006884652f4eafc6d87982c5724) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'c44f8d1a38e1413354e758c35cf99f4b') in 0.015119 seconds
+ -> (artifact id: '7b137d28f8068876e2a8ea5909517473') in 0.012849 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/PolygonDungeon/Models/SM_Prop_Jewel_02.fbx
-  artifactKey: Guid(742fd9204c70b82459b5e881a3a67677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Models/SM_Prop_Jewel_02.fbx using Guid(742fd9204c70b82459b5e881a3a67677) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '5cff19603d144983e157a406eed9d3e6') in 0.012972 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/PolygonDungeon/Models/SM_Env_Sewer_Canal_Drain_02.fbx
-  artifactKey: Guid(44c5c943115aa3247a25cfbcd5d32947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Models/SM_Env_Sewer_Canal_Drain_02.fbx using Guid(44c5c943115aa3247a25cfbcd5d32947) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '1c03441b0dc5dc71b8b2e14681149f8d') in 0.015118 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000116 seconds.
-  path: Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Sewer_Canal_Corner_01_Convex 1.asset
-  artifactKey: Guid(7f0bee7dceba543448553af6dfa2e14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Sewer_Canal_Corner_01_Convex 1.asset using Guid(7f0bee7dceba543448553af6dfa2e14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '1ec03ea81c61667bad3b4b3c1f601533') in 0.025245 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Sewer_Canal_01_Convex 1.asset
-  artifactKey: Guid(a209115c6dc9f1f4191bc8dbd6ae25db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Sewer_Canal_01_Convex 1.asset using Guid(a209115c6dc9f1f4191bc8dbd6ae25db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  path: Assets/PolygonDungeon/Models/SM_Prop_Toture_StretchTable_01.fbx
+  artifactKey: Guid(98f89839b3e0cb3418d41a096360c5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/SM_Prop_Toture_StretchTable_01.fbx using Guid(98f89839b3e0cb3418d41a096360c5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '2eebb13db3d89383d85b79518891e65e') in 0.017529 seconds
+ -> (artifact id: '21cd5a8ea28b66d9d299d007f501d606') in 0.029031 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
+Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Sewer_Canal_01_Convex.asset
-  artifactKey: Guid(b0d8a35fb9f998e4db39abf94181fd5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Sewer_Canal_01_Convex.asset using Guid(b0d8a35fb9f998e4db39abf94181fd5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonDungeon/Models/CollisionConvex/SM_Prop_Table_01_Convex.asset
+  artifactKey: Guid(1b0dbab9aeefe9544a06d1213947bc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/CollisionConvex/SM_Prop_Table_01_Convex.asset using Guid(1b0dbab9aeefe9544a06d1213947bc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '00ba8246811f62e70feb36c15cbd073e') in 0.008643 seconds
+ -> (artifact id: 'd7f2d2171da29ccb3cd34c2433fc2d9d') in 0.007864 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/PolygonDungeon/Models/CollisionConvex/SM_Prop_Jewel_01_Convex.asset
-  artifactKey: Guid(b11108ddd3d73824f9024437884ab84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Models/CollisionConvex/SM_Prop_Jewel_01_Convex.asset using Guid(b11108ddd3d73824f9024437884ab84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 3.616739 seconds.
+  path: Assets/PolygonDungeon/Models/SM_Prop_Skeleton_Table_01.fbx
+  artifactKey: Guid(9384b79415563554cb30877901a422b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/SM_Prop_Skeleton_Table_01.fbx using Guid(9384b79415563554cb30877901a422b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'bfb0c8812b7311365f63b30cb4dcb7dd') in 0.009021 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/PolygonDungeon/Models/CollisionConvex/SM_Item_Inkwell_01_Convex.asset
-  artifactKey: Guid(0ee89dfbf9afa2b4e83142e09ac519d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Models/CollisionConvex/SM_Item_Inkwell_01_Convex.asset using Guid(0ee89dfbf9afa2b4e83142e09ac519d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'ab8794374b43a43a22f5455cf7d3557c') in 0.009206 seconds
+ -> (artifact id: '4c7952d7aef66c1267cec5abc0823574') in 0.011383 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 7
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server
