@@ -5,9 +5,9 @@ public class SceneSwitcher : MonoBehaviour
 {
     public string sceneNameToLoad;
 
-    void OnTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider player)
     {
-        if (other.CompareTag("Player"))
+        if (player.CompareTag("Player"))
         {
             SceneManager.LoadScene(sceneNameToLoad);
         }

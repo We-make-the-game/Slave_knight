@@ -8,7 +8,7 @@ public class CharacterControl : MonoBehaviour
     BoxCollider coll;
     Animator playerAni;
     float speed = 5f;
-    float jumpForce = 250f;
+    float jumpForce = 200f;
     bool isOnGround;
     int jumpCount;
     float moveX;
@@ -23,6 +23,11 @@ public class CharacterControl : MonoBehaviour
 
     // Update is called once per frame
     void Update()
+    {
+        playerMoveUpdate();
+    }
+
+    void playerMoveUpdate() 
     {
         // 获取左右移动按键输入
         moveX = Input.GetAxis("Horizontal");
@@ -52,7 +57,6 @@ public class CharacterControl : MonoBehaviour
         }
     }
 
-
     void Jump()
     {
         //在地面上,设置连跳次数为2
@@ -60,6 +64,7 @@ public class CharacterControl : MonoBehaviour
         {
             jumpCount = 2;
         }
+        Debug.Log("Jump isOnGround: " + isOnGround);
         //在地面上跳跃 or  //在空中跳跃
         if (isOnGround || (jumpCount > 0 && !isOnGround))
         {
@@ -70,7 +75,7 @@ public class CharacterControl : MonoBehaviour
         }
     }
 
-    // 碰撞持续时调用
+    // 跳跃-碰撞持续时调用
     private void OnCollisionStay(Collision collision)
     {
         // 如果碰撞对象有Ground标签，设置isOnGround为true
@@ -80,7 +85,7 @@ public class CharacterControl : MonoBehaviour
         }
     }
 
-    // 碰撞结束时调用
+    // 跳跃-碰撞结束时调用
     private void OnCollisionExit(Collision collision)
     {
         // 如果离开碰撞对象有Ground标签，设置isOnGround为false
