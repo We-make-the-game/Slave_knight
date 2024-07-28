@@ -1,0 +1,589 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.33f1 (b2c853adf198) revision 11716691'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 32578 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.33f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+D:/Slave_Knight/Slave_knight/Dungeon_part1
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+50973
+Successfully changed project path to: D:/Slave_Knight/Slave_knight/Dungeon_part1
+D:/Slave_Knight/Slave_knight/Dungeon_part1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [29624] Host "[IP] 192.168.1.103 [Port] 0 [Flags] 2 [Guid] 3659931037 [EditorId] 3659931037 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IT94I1T) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [29624] Host "[IP] 192.168.1.103 [Port] 0 [Flags] 2 [Guid] 3659931037 [EditorId] 3659931037 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IT94I1T) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 8.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.33f1 (b2c853adf198)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Slave_Knight/Slave_knight/Dungeon_part1/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
+    Vendor:   NVIDIA
+    VRAM:     8079 MB
+    Driver:   31.0.15.2225
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56604
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.013883 seconds.
+- Loaded All Assemblies, in  0.380 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.279 seconds
+Domain Reload Profiling: 656ms
+	BeginReloadAssembly (118ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (141ms)
+		LoadAssemblies (115ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (139ms)
+			TypeCache.Refresh (138ms)
+				TypeCache.ScanAssembly (124ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (280ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (223ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (151ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.658 seconds
+Refreshing native plugins compatible for Editor in 2.90 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.582 seconds
+Domain Reload Profiling: 1235ms
+	BeginReloadAssembly (164ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (386ms)
+		LoadAssemblies (306ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (180ms)
+			TypeCache.Refresh (159ms)
+				TypeCache.ScanAssembly (145ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (583ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (436ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (321ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 2.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3098 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (30.3 KB). Loaded Objects now: 3585.
+Memory consumption went from 138.2 MB to 138.2 MB.
+Total: 4.367700 ms (FindLiveObjects: 0.218500 ms CreateObjectMapping: 0.091400 ms MarkObjects: 4.011900 ms  DeleteObjects: 0.045300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3790.573763 seconds.
+  path: Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/Wall_B.prefab
+  artifactKey: Guid(9255bbe3c3fa9a249b2a140ac54176aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/Wall_B.prefab using Guid(9255bbe3c3fa9a249b2a140ac54176aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b3b052a00244d5f34ea6311e494df5c2') in 0.180593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/Wall_Damaged_B.prefab
+  artifactKey: Guid(7ef0adc4edf9dcc4a96a33fa1186eea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/Wall_Damaged_B.prefab using Guid(7ef0adc4edf9dcc4a96a33fa1186eea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1bef613239104af61a4b8609ee0463b0') in 0.022407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/Wall_DoorStand.prefab
+  artifactKey: Guid(392813710f670b9459fbed5d1c51204d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/Wall_DoorStand.prefab using Guid(392813710f670b9459fbed5d1c51204d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7c13c059e8590296acc14bac98152410') in 0.040164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/Wall_Corner.prefab
+  artifactKey: Guid(57cefdc18c23c6042a82bdc9aa659c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/Wall_Corner.prefab using Guid(57cefdc18c23c6042a82bdc9aa659c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a610365d3fda3060c00123ed707f2c56') in 0.015067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/Wall_DoorStand.001.prefab
+  artifactKey: Guid(153960eca4332fa4d894a993bf8bd047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/Wall_DoorStand.001.prefab using Guid(153960eca4332fa4d894a993bf8bd047) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd8dee4983437d5c24197ebd54fbc04d1') in 0.011712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/Wall_Corner_Outer.prefab
+  artifactKey: Guid(b7ddecfba1875cd4e85f3f161f1291be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/Wall_Corner_Outer.prefab using Guid(b7ddecfba1875cd4e85f3f161f1291be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'af3a0b3ebe36fc2f649da09c12273e7b') in 0.010393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/Wall_C.prefab
+  artifactKey: Guid(90d4cc205afe2664da075e4a552f8af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/Wall_C.prefab using Guid(90d4cc205afe2664da075e4a552f8af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '84c0ae7f704868152f6744d88e9742a7') in 0.011629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/Wall_Damagedwood.prefab
+  artifactKey: Guid(5c135da02f598234c98493374d900eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/Wall_Damagedwood.prefab using Guid(5c135da02f598234c98493374d900eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bc1986d68da741de4149b2fe6de2eaaa') in 0.011504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/Wall_Corner_Inner.prefab
+  artifactKey: Guid(f39a2371a5ae22f4ea2489fbe0d7103d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/Wall_Corner_Inner.prefab using Guid(f39a2371a5ae22f4ea2489fbe0d7103d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9e74ff2ffe628ab120907bf2be91468f') in 0.012312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/Wall_Damaged_D.prefab
+  artifactKey: Guid(f43f54b44838f7f40a095fea9fcf42a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/Wall_Damaged_D.prefab using Guid(f43f54b44838f7f40a095fea9fcf42a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a65366af305688d10a62cd126e4ee200') in 0.011737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/Wall_CornerDamaged_A.prefab
+  artifactKey: Guid(a5faad32e45f17d418c388dd50c72d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/Wall_CornerDamaged_A.prefab using Guid(a5faad32e45f17d418c388dd50c72d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '89458a8351f3ef9d06cab71bcd1a25ab') in 0.012724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/Wall_Divider_Horizontal.prefab
+  artifactKey: Guid(2fbd2cfc8ee62ea42a57091b4a4849b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/Wall_Divider_Horizontal.prefab using Guid(2fbd2cfc8ee62ea42a57091b4a4849b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '375c4b6d6785cc2e72c3b9bf67256854') in 0.011972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/Wall_DoorStandLarge.prefab
+  artifactKey: Guid(058f76ccf3b392247b2ec994f4ebaed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/Wall_DoorStandLarge.prefab using Guid(058f76ccf3b392247b2ec994f4ebaed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9cbda42ce6c8a095bf39c8e7638a8356') in 0.011393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/Wall_Chiseled.prefab
+  artifactKey: Guid(b209b3a64be5abd44a669a6838d9d31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/Wall_Chiseled.prefab using Guid(b209b3a64be5abd44a669a6838d9d31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ad4a6fe1a7dcb7cb8e725874c887a320') in 0.010703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.029757 seconds.
+  path: Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/Wall_Quarter.prefab
+  artifactKey: Guid(c4acbc74627b65244930c1b319d164b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/Wall_Quarter.prefab using Guid(c4acbc74627b65244930c1b319d164b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '02f29f75ec7346965ecfe8bce963674f') in 0.010797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/WallArch_Bottom.prefab
+  artifactKey: Guid(e0fc8fc16c9a1154fa26c37a471d9bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/WallArch_Bottom.prefab using Guid(e0fc8fc16c9a1154fa26c37a471d9bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f1992bec474ea1958941d03460becebd') in 0.010475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/Wall_Rumble.prefab
+  artifactKey: Guid(65a9e815cef74b9478f3791ef7abad2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/Wall_Rumble.prefab using Guid(65a9e815cef74b9478f3791ef7abad2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cab3c5036f411bf6ca5e69a8990be0a0') in 0.011690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/Window.prefab
+  artifactKey: Guid(35fcc7ecab6883242bf05e93f47e5c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/Window.prefab using Guid(35fcc7ecab6883242bf05e93f47e5c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e4fd94bcb592b4aa57a44ad3d8d6ea02') in 0.010972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/Window_Large_Squared.prefab
+  artifactKey: Guid(528eaf5ddaa17ee439de51603278ea43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/Window_Large_Squared.prefab using Guid(528eaf5ddaa17ee439de51603278ea43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '975ef50df2607fb9f63da9dc3f611b2b') in 0.013175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/WoodWall_Damaged_B.prefab
+  artifactKey: Guid(e66a0d2ec89cbe34b93957a98710a40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/WoodWall_Damaged_B.prefab using Guid(e66a0d2ec89cbe34b93957a98710a40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '96decd80bfbad69eb90efbfdf5b41338') in 0.012187 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/Wall_Stoned_Arch_C.prefab
+  artifactKey: Guid(930fac969e7aef24787d724b168fba47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/Wall_Stoned_Arch_C.prefab using Guid(930fac969e7aef24787d724b168fba47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2757e0767893071dd1eae879405ba0b6') in 0.011851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/Wood_Column_A.prefab
+  artifactKey: Guid(ec8b4cd751192a649a3be91edb13a68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/Wood_Column_A.prefab using Guid(ec8b4cd751192a649a3be91edb13a68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4347aa866b2998fef9bb9d1edae7acf0') in 0.015554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/Wall_Showcase.prefab
+  artifactKey: Guid(119bf10bda8acd245bc7a6a6649c2658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/Wall_Showcase.prefab using Guid(119bf10bda8acd245bc7a6a6649c2658) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b7c2dc6efdb4734c690f021d092e33ac') in 0.012628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/Wall_Stoned_Arch_D.prefab
+  artifactKey: Guid(d255ad1a36f582b498c4489133af3180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/Wall_Stoned_Arch_D.prefab using Guid(d255ad1a36f582b498c4489133af3180) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5b8a055511aef89c17758c7983536a72') in 0.011563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/WallCornered.prefab
+  artifactKey: Guid(95886b87634006c40995ca282ba7a7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/WallCornered.prefab using Guid(95886b87634006c40995ca282ba7a7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c0049599b09c3aa23840f18e90b185aa') in 0.009545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/Window_Large_Closed.prefab
+  artifactKey: Guid(6d645f3b1feff58489c1cc6226411671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/Window_Large_Closed.prefab using Guid(6d645f3b1feff58489c1cc6226411671) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '05eb88a9f7f2f663e00b1ea02df57d0f') in 0.012627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/WoodWall_Door.prefab
+  artifactKey: Guid(e8875763785a8644188d41cbbe88a41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/WoodWall_Door.prefab using Guid(e8875763785a8644188d41cbbe88a41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e9f25812588f73c7c2d8adc7daac876f') in 0.012021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/WoodWall_Damaged_A.prefab
+  artifactKey: Guid(055306188b22fe248846d582fc299321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/WoodWall_Damaged_A.prefab using Guid(055306188b22fe248846d582fc299321) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0d2f59059048f871e9d6458deaaa4afa') in 0.010595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/Wall_Stoned_Arch_A.prefab
+  artifactKey: Guid(41257f86f4f594b4ba060556e16bdba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Environment/BuildingParts/Wall_Stoned_Arch_A.prefab using Guid(41257f86f4f594b4ba060556e16bdba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dc46b95c1a141d9b4166663abd398b24') in 0.011241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 6.519410 seconds.
+  path: Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Props/Flags/Flag.001.prefab
+  artifactKey: Guid(db4ebf52380922c4f9ba62ef8d2cbe43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Props/Flags/Flag.001.prefab using Guid(db4ebf52380922c4f9ba62ef8d2cbe43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '182cbb914ba36452a693fbbcf4c7142b') in 0.011803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Props/Flags/Flag.003.prefab
+  artifactKey: Guid(8fd458c82c75a1a4892fac20d911aa78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Props/Flags/Flag.003.prefab using Guid(8fd458c82c75a1a4892fac20d911aa78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '73cb1437d14f39fbab5a8fc40ad89c27') in 0.011570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Props/Flags/Flag.006_Red.prefab
+  artifactKey: Guid(4ae2f17dab737a943a4b1819b265dba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Props/Flags/Flag.006_Red.prefab using Guid(4ae2f17dab737a943a4b1819b265dba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '42c2bd9930ea9814c9dfeab2a4f1005e') in 0.012716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Props/Flags/Flag.001_Yellow.prefab
+  artifactKey: Guid(242619dc77c8e2a47b0a636f59cd6d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Props/Flags/Flag.001_Yellow.prefab using Guid(242619dc77c8e2a47b0a636f59cd6d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '98f35f6c5ff4c432fa4d175e702caa7c') in 0.012008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Props/Flags/Flag.004.prefab
+  artifactKey: Guid(bbfde315d4b2ed9439e40c4447ba360d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Props/Flags/Flag.004.prefab using Guid(bbfde315d4b2ed9439e40c4447ba360d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ae4a7d7dbef77bed98e582f13ccaea7d') in 0.010920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Props/Flags/Flag_Red.prefab
+  artifactKey: Guid(b17b654039aad6147ba8841e36df60b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Props/Flags/Flag_Red.prefab using Guid(b17b654039aad6147ba8841e36df60b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0953515a9557fdc4697e00b5b1dfd126') in 0.010564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Props/Flags/Flag.006_Yellow.prefab
+  artifactKey: Guid(daf18b215d970764c826211d1c02bf50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Props/Flags/Flag.006_Yellow.prefab using Guid(daf18b215d970764c826211d1c02bf50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '761d6ab69c4a61993d8272ffb9cfbbeb') in 0.010911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Props/Flags/Flag.004_Yellow.prefab
+  artifactKey: Guid(fbb67e1935ead75499f6f629da16d086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Props/Flags/Flag.004_Yellow.prefab using Guid(fbb67e1935ead75499f6f629da16d086) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd9e8f4d37fea5526c8c7804e0fa757ea') in 0.013806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Props/Flags/Flag.002_Yellow.prefab
+  artifactKey: Guid(4fd4aeeeed0d2dd4bbdc582738467540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Props/Flags/Flag.002_Yellow.prefab using Guid(4fd4aeeeed0d2dd4bbdc582738467540) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '16192c6dd35e60ba93ad538b58e4502d') in 0.013062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Props/Flags/Flag.006.prefab
+  artifactKey: Guid(b0a56a6fb8eaad64290f38ebd73068f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Props/Flags/Flag.006.prefab using Guid(b0a56a6fb8eaad64290f38ebd73068f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd4d5caba931b2ac4571a397b4ea1ef49') in 0.013206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Props/Flags/Flag.002.prefab
+  artifactKey: Guid(26b4d88a2dcb47d4281441c018c83242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gridness Studios/Elementary Dungeon Pack/Prefabs/Props/Flags/Flag.002.prefab using Guid(26b4d88a2dcb47d4281441c018c83242) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5c4fb3671b9cd01f25e3fe0975b745e5') in 0.012993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
