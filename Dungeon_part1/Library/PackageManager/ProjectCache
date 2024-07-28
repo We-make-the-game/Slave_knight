@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638565404606359726
-    m_Hash: 280236670
+      ticks: 638577273674999092
+    m_Hash: 2190083524
   m_LockFileStatus:
     m_FilePath: D:/Slave_Knight/Slave_knight/Dungeon_part1/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638565404606967153
-    m_Hash: 150666284
+      ticks: 638577273675009067
+    m_Hash: 776563695
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
