@@ -355,6 +355,8 @@
 "Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Scripts/LightMotion.cs"
 "Assets/Scripts/CameraFollowPlayer.cs"
 "Assets/Scripts/CharacterControl.cs"
+"Assets/Scripts/elevator_move_player.cs"
+"Assets/Scripts/elevator_trigger.cs"
 "Assets/Scripts/SceneSwitcher.cs"
 -langversion:9.0
 /deterministic
