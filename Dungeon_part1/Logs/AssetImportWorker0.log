@@ -15,7 +15,7 @@ D:/Slave_Knight/Slave_knight/Dungeon_part1
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54828
+56144
 Successfully changed project path to: D:/Slave_Knight/Slave_knight/Dungeon_part1
 D:/Slave_Knight/Slave_knight/Dungeon_part1
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/Slave_Knight/Slave_knight/Dungeon_part1
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [5440] Host "[IP] 192.168.1.103 [Port] 0 [Flags] 2 [Guid] 868094389 [EditorId] 868094389 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IT94I1T) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [31104] Host "[IP] 192.168.1.103 [Port] 0 [Flags] 2 [Guid] 508796833 [EditorId] 508796833 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IT94I1T) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [5440] Host "[IP] 192.168.1.103 [Port] 0 [Flags] 2 [Guid] 868094389 [EditorId] 868094389 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IT94I1T) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [31104] Host "[IP] 192.168.1.103 [Port] 0 [Flags] 2 [Guid] 508796833 [EditorId] 508796833 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IT94I1T) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Refreshing native plugins compatible for Editor in 10.75 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 10.10 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.33f1 (b2c853adf198)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/Resources/UnitySubsystems
@@ -70,46 +70,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56980
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56492
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.014318 seconds.
-- Loaded All Assemblies, in  0.404 seconds
+Registered in 0.020850 seconds.
+- Loaded All Assemblies, in  0.551 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.294 seconds
-Domain Reload Profiling: 694ms
-	BeginReloadAssembly (135ms)
+- Finished resetting the current domain, in  0.555 seconds
+Domain Reload Profiling: 1103ms
+	BeginReloadAssembly (183ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (34ms)
+	RebuildCommonClasses (55ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (77ms)
-	LoadAllAssembliesAndSetupDomain (142ms)
-		LoadAssemblies (131ms)
+	initialDomainReloadingComplete (94ms)
+	LoadAllAssembliesAndSetupDomain (204ms)
+		LoadAssemblies (179ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (139ms)
-			TypeCache.Refresh (138ms)
-				TypeCache.ScanAssembly (124ms)
+		AnalyzeDomain (202ms)
+			TypeCache.Refresh (200ms)
+				TypeCache.ScanAssembly (178ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (294ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (556ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (233ms)
+		SetupLoadedEditorAssemblies (454ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (162ms)
-			ProcessInitializeOnLoadMethodAttributes (52ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (264ms)
+			ProcessInitializeOnLoadMethodAttributes (154ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,8 +117,8 @@ Domain Reload Profiling: 694ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.648 seconds
-Refreshing native plugins compatible for Editor in 3.29 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.883 seconds
+Refreshing native plugins compatible for Editor in 4.06 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -126,47 +126,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.641 seconds
-Domain Reload Profiling: 1285ms
-	BeginReloadAssembly (163ms)
+- Finished resetting the current domain, in  0.867 seconds
+Domain Reload Profiling: 1745ms
+	BeginReloadAssembly (204ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (54ms)
-	LoadAllAssembliesAndSetupDomain (383ms)
-		LoadAssemblies (302ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (79ms)
+	LoadAllAssembliesAndSetupDomain (521ms)
+		LoadAssemblies (408ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (180ms)
-			TypeCache.Refresh (158ms)
-				TypeCache.ScanAssembly (144ms)
-			ScanForSourceGeneratedMonoScriptInfo (15ms)
+		AnalyzeDomain (237ms)
+			TypeCache.Refresh (214ms)
+				TypeCache.ScanAssembly (196ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
 			ResolveRequiredComponents (5ms)
-	FinalizeReload (641ms)
+	FinalizeReload (867ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (472ms)
+		SetupLoadedEditorAssemblies (698ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (15ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (67ms)
-			ProcessInitializeOnLoadAttributes (335ms)
-			ProcessInitializeOnLoadMethodAttributes (28ms)
-			AfterProcessingInitializeOnLoad (24ms)
+			BeforeProcessingInitializeOnLoad (179ms)
+			ProcessInitializeOnLoadAttributes (451ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (14ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (11ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 5.15 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 3.44 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3118 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (30.3 KB). Loaded Objects now: 3607.
-Memory consumption went from 222.3 MB to 222.3 MB.
-Total: 4.434100 ms (FindLiveObjects: 0.263700 ms CreateObjectMapping: 0.216800 ms MarkObjects: 3.896200 ms  DeleteObjects: 0.056100 ms)
+Unloading 32 unused Assets / (30.3 KB). Loaded Objects now: 3608.
+Memory consumption went from 223.2 MB to 223.2 MB.
+Total: 3.336400 ms (FindLiveObjects: 0.252400 ms CreateObjectMapping: 0.266100 ms MarkObjects: 2.761500 ms  DeleteObjects: 0.055100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -184,863 +184,226 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 103509.969359 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(7819394639f61184bb0881b0eeb91255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(7819394639f61184bb0881b0eeb91255) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '22bffa8cefdb5d697e241228b09d38e5') in 0.002451 seconds
+  Time since last request: 107045.065939 seconds.
+  path: Assets/PolygonDarkFantasy/Scenes/Demo_Cathedral_01.unity
+  artifactKey: Guid(6ca23cebb11f1ea4586adfe520c5f805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDarkFantasy/Scenes/Demo_Cathedral_01.unity using Guid(6ca23cebb11f1ea4586adfe520c5f805) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2727f8bb3af17d5321620a1e71a162df') in 0.003095 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 404.677888 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Alcove_01.prefab
-  artifactKey: Guid(6447a8804383e5048ac4c5f9dcc47296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Alcove_01.prefab using Guid(6447a8804383e5048ac4c5f9dcc47296) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '42f371ec7692e0a8d2f51815a1a40e32') in 0.781190 seconds
+  Time since last request: 134.955803 seconds.
+  path: Assets/PolygonDarkFantasy/Scenes/Demo_Crypt_01.unity
+  artifactKey: Guid(5e6877c03b93d824eb9e725c42093f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDarkFantasy/Scenes/Demo_Crypt_01.unity using Guid(5e6877c03b93d824eb9e725c42093f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b099306def9fdea51237bf5515cba068') in 0.000380 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 32
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Roof_Cap_Angle_End_01.prefab
-  artifactKey: Guid(25650d1bc2fc7d24198976f05911c5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Roof_Cap_Angle_End_01.prefab using Guid(25650d1bc2fc7d24198976f05911c5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '7b1887b5a47365c38e4f6afe9ac5d876') in 0.057293 seconds
+  Time since last request: 59.752562 seconds.
+  path: Assets/PolygonDarkFantasy/Scenes/Demo_Graveyard_01.unity
+  artifactKey: Guid(8368882deebe81b4bb278e5aba53948a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDarkFantasy/Scenes/Demo_Graveyard_01.unity using Guid(8368882deebe81b4bb278e5aba53948a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4aa0727f7a4d8c1d125a78ff69b0f981') in 0.000431 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Buttress_Pillar_03.prefab
-  artifactKey: Guid(ae0d0fa7403f4c64e9644521cc688bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Buttress_Pillar_03.prefab using Guid(ae0d0fa7403f4c64e9644521cc688bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'b11c784de9ebd76be6a4da67d01be398') in 0.018727 seconds
+  Time since last request: 63.324953 seconds.
+  path: Assets/Scenes/castle_courtyard.unity
+  artifactKey: Guid(1a5a8ddc72123c84e89bc45c10fab321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/castle_courtyard.unity using Guid(1a5a8ddc72123c84e89bc45c10fab321) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a4d7c07d72c904ae66aca491a17f4371') in 0.000402 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Bridge_Base_01_Damaged_03.prefab
-  artifactKey: Guid(19c813df913454a46b8d43b8ee468084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Bridge_Base_01_Damaged_03.prefab using Guid(19c813df913454a46b8d43b8ee468084) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 42.898456 seconds.
+  path: Assets/PolygonDarkFantasy/Prefabs/Props/SM_Prop_Candelabra_01.prefab
+  artifactKey: Guid(e770f1f993f747943be794726775929c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDarkFantasy/Prefabs/Props/SM_Prop_Candelabra_01.prefab using Guid(e770f1f993f747943be794726775929c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '7eefbeaa990fb0065240d4f79da09f83') in 0.075008 seconds
+ -> (artifact id: '43c1444f37013c496eb0f9b18907e350') in 0.230846 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 22
+Number of asset objects unloaded after import = 27
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Bridge_Railing_Sloped_01.prefab
-  artifactKey: Guid(c90c2cc800cd6f94a92ba55654c61398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Bridge_Railing_Sloped_01.prefab using Guid(c90c2cc800cd6f94a92ba55654c61398) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PolygonDarkFantasy/Prefabs/Props/SM_Prop_Candle_02.prefab
+  artifactKey: Guid(39df25203ca383b4e870de00d8f2e87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDarkFantasy/Prefabs/Props/SM_Prop_Candle_02.prefab using Guid(39df25203ca383b4e870de00d8f2e87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'a341712e586300c7acd66606c44919ff') in 0.050416 seconds
+ -> (artifact id: '873c981f172b5c6fb36ae962d4d1903a') in 0.063991 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
+Number of asset objects unloaded after import = 27
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Bridge_Base_01.prefab
-  artifactKey: Guid(df99df2207e5cc946ae809e70a74c92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Bridge_Base_01.prefab using Guid(df99df2207e5cc946ae809e70a74c92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PolygonDarkFantasy/Prefabs/Props/SM_Prop_Candelabra_Small_02.prefab
+  artifactKey: Guid(3fa49ea086f023741a6e62eb5dbaeea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDarkFantasy/Prefabs/Props/SM_Prop_Candelabra_Small_02.prefab using Guid(3fa49ea086f023741a6e62eb5dbaeea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '66fd020ad4385b24a1dbc85c02af3aed') in 0.076163 seconds
+ -> (artifact id: 'f202d30d91d7a6333b03593369b1ede7') in 0.046908 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 22
+Number of asset objects unloaded after import = 27
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Fence_Pillar_Cemetary_01.prefab
-  artifactKey: Guid(ed3fa8df7e37ad04f8a8a0d222ae2754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Fence_Pillar_Cemetary_01.prefab using Guid(ed3fa8df7e37ad04f8a8a0d222ae2754) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PolygonDarkFantasy/Prefabs/Props/SM_Prop_Candle_01.prefab
+  artifactKey: Guid(596492eca626c2540a7a059856cca442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDarkFantasy/Prefabs/Props/SM_Prop_Candle_01.prefab using Guid(596492eca626c2540a7a059856cca442) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'ab8a9b60b6100dc6388062bb42920eb2') in 0.050743 seconds
+ -> (artifact id: 'fc601f497892af8f7d10027f4a9e6b69') in 0.052487 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
+Number of asset objects unloaded after import = 27
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Pillar_03.prefab
-  artifactKey: Guid(40474abfa40705a4d8e555f3f21e8470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Pillar_03.prefab using Guid(40474abfa40705a4d8e555f3f21e8470) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 0.252956 seconds.
+  path: Assets/PolygonDarkFantasy/Prefabs/Props/SM_Prop_Candle_04.prefab
+  artifactKey: Guid(401d2c26cf6a6144a96f90c415a8e586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDarkFantasy/Prefabs/Props/SM_Prop_Candle_04.prefab using Guid(401d2c26cf6a6144a96f90c415a8e586) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'b456edbe3a56c30ebc4de5c18ba2281a') in 0.049537 seconds
+ -> (artifact id: '5a366e7d0ec11794df4b3c6200836ab5') in 0.054405 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
+Number of asset objects unloaded after import = 27
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Roof_Cap_Angle_01.prefab
-  artifactKey: Guid(b28aeb2eba2f8d04688c262265080799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Roof_Cap_Angle_01.prefab using Guid(b28aeb2eba2f8d04688c262265080799) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonDarkFantasy/Prefabs/Props/SM_Prop_Candle_06.prefab
+  artifactKey: Guid(3a879273646fa9e4cab1fe1c259e1ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDarkFantasy/Prefabs/Props/SM_Prop_Candle_06.prefab using Guid(3a879273646fa9e4cab1fe1c259e1ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '9bbba46561fc8fb98b7c6d4cf05165bb') in 0.050626 seconds
+ -> (artifact id: '349e814f728555c58a998cfa0baad773') in 0.058728 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Buttress_Pillar_01.prefab
-  artifactKey: Guid(163dd348ba930cd4e8387b1fd2ac0a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Buttress_Pillar_01.prefab using Guid(163dd348ba930cd4e8387b1fd2ac0a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '6458e509fd6e746f8e4d10b15909e715') in 0.012672 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Roof_Cap_Half_01.prefab
-  artifactKey: Guid(87449dea0c17666439b21418cfe81702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Roof_Cap_Half_01.prefab using Guid(87449dea0c17666439b21418cfe81702) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '3250300cf012f8029eba848f3a4fda59') in 0.053443 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Railing_01_Damaged_01.prefab
-  artifactKey: Guid(851b44735fabd8d45b9248efddde7d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Railing_01_Damaged_01.prefab using Guid(851b44735fabd8d45b9248efddde7d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '54f2ebf114a8ffca6882a6317f4e925f') in 0.049983 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Buttress_Pillar_04.prefab
-  artifactKey: Guid(c1befbe432836644c9fc9406852bd3f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Buttress_Pillar_04.prefab using Guid(c1befbe432836644c9fc9406852bd3f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '55bcfc458ce7cdaed37baf2f2ae30fef') in 0.011213 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Bridge_Base_01_Damaged_01.prefab
-  artifactKey: Guid(799d66d15587f9445a92bf063b742d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Bridge_Base_01_Damaged_01.prefab using Guid(799d66d15587f9445a92bf063b742d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '8dab8ad17692275d456d3428c8b486a1') in 0.060124 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 22
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Bridge_Ramp_01.prefab
-  artifactKey: Guid(13d370eb4ed6ddc43a722c06ce7bb23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Bridge_Ramp_01.prefab using Guid(13d370eb4ed6ddc43a722c06ce7bb23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'b283ae228a33a011b53333800d445746') in 0.061080 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Door_02.prefab
-  artifactKey: Guid(27131b23527325e4f8fe2755d0531477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Door_02.prefab using Guid(27131b23527325e4f8fe2755d0531477) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'd5671ea954e32b38454e17b454e91ea7') in 0.049433 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Roof_Cap_End_01.prefab
-  artifactKey: Guid(b31eb0ddfca2e0748a1fb791298ff96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Roof_Cap_End_01.prefab using Guid(b31eb0ddfca2e0748a1fb791298ff96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '859b24ac889ae0f9eb696819b382035d') in 0.051488 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Partition_01.prefab
-  artifactKey: Guid(78c915f1d3e827c44b98d2740bac3910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Partition_01.prefab using Guid(78c915f1d3e827c44b98d2740bac3910) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '6d4783446df3fe53832d826f1093a14c') in 0.065247 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Bridge_Railing_02.prefab
-  artifactKey: Guid(a8c2c2f04f166ff42a8ac36e1c3ffcf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Bridge_Railing_02.prefab using Guid(a8c2c2f04f166ff42a8ac36e1c3ffcf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e5c30854ff6309c614563c5fbaff8fbf') in 0.058031 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
+Number of asset objects unloaded after import = 27
 ========================================================================
 Received Import Request.
   Time since last request: 0.000033 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Bridge_Base_Extension_01.prefab
-  artifactKey: Guid(17d5721194999404982613e8b169e300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Bridge_Base_Extension_01.prefab using Guid(17d5721194999404982613e8b169e300) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  path: Assets/PolygonDarkFantasy/Prefabs/Props/SM_Prop_Chandelier_01.prefab
+  artifactKey: Guid(d841716f3f561e642ae66e8d81113f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDarkFantasy/Prefabs/Props/SM_Prop_Chandelier_01.prefab using Guid(d841716f3f561e642ae66e8d81113f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'a00b6bcd84a16870f5da809cc2953fcf') in 0.081186 seconds
+ -> (artifact id: '54d32620c71489fb469e6113ede175c7') in 0.058791 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Buttress_01.prefab
-  artifactKey: Guid(f3b2a6237939d5e4ba6a9e6eb97fecc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Buttress_01.prefab using Guid(f3b2a6237939d5e4ba6a9e6eb97fecc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'ed279e300b1e99265ab9885af976e602') in 0.052780 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Bridge_Railing_01_Damaged_02.prefab
-  artifactKey: Guid(c56a39d08f71e0f4a93caade090530fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Bridge_Railing_01_Damaged_02.prefab using Guid(c56a39d08f71e0f4a93caade090530fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'd6cd129743eded8264f8ca24f8575fd3') in 0.055393 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Beam_Cap_01.prefab
-  artifactKey: Guid(d201348a95a71724089f1b8a766470ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Beam_Cap_01.prefab using Guid(d201348a95a71724089f1b8a766470ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '032226018110db2f1d1e69b44459c563') in 0.051150 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Pillar_04.prefab
-  artifactKey: Guid(19fbe54e8722dca48a33cf0fa56d3c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Pillar_04.prefab using Guid(19fbe54e8722dca48a33cf0fa56d3c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'b55f17497b208ee05a2e03a3441cdf7a') in 0.041537 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 3.981782 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Roof_Cap_Medium_01.prefab
-  artifactKey: Guid(9f8c1b3443ad27d45bd9984222ff3b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Roof_Cap_Medium_01.prefab using Guid(9f8c1b3443ad27d45bd9984222ff3b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'c97853c22b674367c654eb5aefe654f9') in 0.052531 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Roof_Trim_End_01.prefab
-  artifactKey: Guid(ff94a819936a7e04784d20a1a0b75442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Roof_Trim_End_01.prefab using Guid(ff94a819936a7e04784d20a1a0b75442) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '861efaa62ebf994eb1891eb528774b49') in 0.051913 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Roof_Ruin_Straight_04.prefab
-  artifactKey: Guid(4249615060bbb22428e3356be941483c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Roof_Ruin_Straight_04.prefab using Guid(4249615060bbb22428e3356be941483c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '8e41fa8d23b7a392bc38ed89a3904fb4') in 0.074253 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Stairs_Stage_01.prefab
-  artifactKey: Guid(d97db54e4bc7c2a449e655927954055b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Stairs_Stage_01.prefab using Guid(d97db54e4bc7c2a449e655927954055b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'f4e5b6c45fbc3ae511cd7c188336d002') in 0.013383 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Stairs_01.prefab
-  artifactKey: Guid(9716a0ec834f0024c97aa60c636631dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Stairs_01.prefab using Guid(9716a0ec834f0024c97aa60c636631dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '2a63a4db0db9a0c45b4bd4e7f8e61d54') in 0.013332 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Ruin_04.prefab
-  artifactKey: Guid(a25ba7a3c7af62548874aa00a2c65d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Ruin_04.prefab using Guid(a25ba7a3c7af62548874aa00a2c65d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '213ce37971416085d12a6786bdfef148') in 0.054447 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Roof_Ruin_Straight_05.prefab
-  artifactKey: Guid(aa7a8b1bd341428429b39b7872ded02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Roof_Ruin_Straight_05.prefab using Guid(aa7a8b1bd341428429b39b7872ded02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '5020ae6a5fdf977dda81c3a2355ab40c') in 0.059987 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Roof_Trim_Half_01.prefab
-  artifactKey: Guid(a5a716bfc254ce24f8636b082dbb5e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Roof_Trim_Half_01.prefab using Guid(a5a716bfc254ce24f8636b082dbb5e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'a58be2c649f086bf1469066c021a8c76') in 0.056548 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Stair_Half_01.prefab
-  artifactKey: Guid(7b1cb913f35f41f44bd9276b7f4fb34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Stair_Half_01.prefab using Guid(7b1cb913f35f41f44bd9276b7f4fb34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '09e3f028c1a939102ceb34fe08ce0d54') in 0.012553 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
+Number of asset objects unloaded after import = 27
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Roof_Ruin_End_01.prefab
-  artifactKey: Guid(748a1714ca194254cb31e77a31ea62f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Roof_Ruin_End_01.prefab using Guid(748a1714ca194254cb31e77a31ea62f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  path: Assets/PolygonDarkFantasy/Prefabs/Props/SM_Prop_Chandelier_01_Damaged_01.prefab
+  artifactKey: Guid(73083d54633bb094a80fc51a5e9f2dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDarkFantasy/Prefabs/Props/SM_Prop_Chandelier_01_Damaged_01.prefab using Guid(73083d54633bb094a80fc51a5e9f2dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '16acc83195a4373e6f9e012bfe580d10') in 0.069607 seconds
+ -> (artifact id: '10ea0824d9cf8225657461f0d405fd13') in 0.047358 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
+Number of asset objects unloaded after import = 27
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Roof_Ruin_Straight_03.prefab
-  artifactKey: Guid(5ee96804d993cbe4abd57a79cfd183cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Roof_Ruin_Straight_03.prefab using Guid(5ee96804d993cbe4abd57a79cfd183cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 0.000044 seconds.
+  path: Assets/PolygonDarkFantasy/Prefabs/Props/SM_Prop_Candle_Rack_01_Insert_02.prefab
+  artifactKey: Guid(5c77f78f02c1f8c4fa53c9cdeb54e61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDarkFantasy/Prefabs/Props/SM_Prop_Candle_Rack_01_Insert_02.prefab using Guid(5c77f78f02c1f8c4fa53c9cdeb54e61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'f07bc1e1ed9b8e54bedefeae248ef962') in 0.057574 seconds
+ -> (artifact id: '8df1b971177e4269f3793e5863cf0c5a') in 0.046356 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
+Number of asset objects unloaded after import = 25
 ========================================================================
 Received Import Request.
-  Time since last request: 17.024354 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Topper_03.prefab
-  artifactKey: Guid(ca5f0d4ae7f1dab4baf308e5d3d4fe29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Topper_03.prefab using Guid(ca5f0d4ae7f1dab4baf308e5d3d4fe29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 0.000044 seconds.
+  path: Assets/PolygonDarkFantasy/Prefabs/Props/SM_Prop_Candle_08.prefab
+  artifactKey: Guid(1271a9e674362f7408f6bf9c0019a877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDarkFantasy/Prefabs/Props/SM_Prop_Candle_08.prefab using Guid(1271a9e674362f7408f6bf9c0019a877) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'ac9dfc226d210390e5761fb662218482') in 0.134626 seconds
+ -> (artifact id: 'e9a3efce2f5f0ea07c76eba0712cee0a') in 0.045396 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
+Number of asset objects unloaded after import = 27
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Wall_Alcove_02.prefab
-  artifactKey: Guid(21d63f0c63f978e4b82bbb3405298371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Wall_Alcove_02.prefab using Guid(21d63f0c63f978e4b82bbb3405298371) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 68.575210 seconds.
+  path: Assets/PolygonDarkFantasy/Models/Collision/Convex/SM_Prop_Gibbet_01_Rope_01_Convex.asset
+  artifactKey: Guid(d50bf34e065ba6b40877712cfb4ff5fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDarkFantasy/Models/Collision/Convex/SM_Prop_Gibbet_01_Rope_01_Convex.asset using Guid(d50bf34e065ba6b40877712cfb4ff5fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '5adb1887b6c8d1c8110b6e276b2f9a65') in 0.064850 seconds
+ -> (artifact id: 'bc30433ccb5eeead33710ee27ae6d6d7') in 0.022367 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 23
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Wall_Alcove_01.prefab
-  artifactKey: Guid(605e576cd0861e44ba42d3ef232647cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Wall_Alcove_01.prefab using Guid(605e576cd0861e44ba42d3ef232647cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 0.018483 seconds.
+  path: Assets/PolygonDarkFantasy/Models/Collision/Convex/SM_Prop_Gibbet_01_Rope_02_Convex.asset
+  artifactKey: Guid(cd023b01b6d361f4284ddcc2e4b1384a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDarkFantasy/Models/Collision/Convex/SM_Prop_Gibbet_01_Rope_02_Convex.asset using Guid(cd023b01b6d361f4284ddcc2e4b1384a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '749aca36fa460413c03e27a17e13f44b') in 0.062647 seconds
+ -> (artifact id: 'ce808372148bf6228c5aeb40a53d3313') in 0.008720 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 31
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Topper_Base_03.prefab
-  artifactKey: Guid(507b9b11d63b6584993b557294d6c4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Topper_Base_03.prefab using Guid(507b9b11d63b6584993b557294d6c4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '1377919380b4ea63a065e1d3d986d300') in 0.057503 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 5.430356 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Wall_Archway_02_Cap_01.prefab
-  artifactKey: Guid(907f409b1714c8348b001148afdc8158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Wall_Archway_02_Cap_01.prefab using Guid(907f409b1714c8348b001148afdc8158) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'fcb7e03ccf4f86e28e14069795190caf') in 0.055796 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000020 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Wall_Door_Large_01.prefab
-  artifactKey: Guid(970111aaa03fdb94ca15c2dd3197c472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Wall_Door_Large_01.prefab using Guid(970111aaa03fdb94ca15c2dd3197c472) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  path: Assets/PolygonDarkFantasy/Models/Collision/Convex/SM_Prop_Noose_Rope_01_Convex.asset
+  artifactKey: Guid(92eb7827885d88d4fa8dc05cf77c584d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDarkFantasy/Models/Collision/Convex/SM_Prop_Noose_Rope_01_Convex.asset using Guid(92eb7827885d88d4fa8dc05cf77c584d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '424062768ef888b458855278dd88dc6c') in 0.066930 seconds
+ -> (artifact id: 'c9114d0df6cbc529a42f16caaba21a32') in 0.008506 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 31
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Wall_Door_03.prefab
-  artifactKey: Guid(8449f9de3bad3b24290ae22cc7bfba11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Wall_Door_03.prefab using Guid(8449f9de3bad3b24290ae22cc7bfba11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonDarkFantasy/Models/SM_Prop_Rope_Hanging_01.fbx
+  artifactKey: Guid(7a2c477f5128ea649941736f80bce51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDarkFantasy/Models/SM_Prop_Rope_Hanging_01.fbx using Guid(7a2c477f5128ea649941736f80bce51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '8c350fe3ed023663ac76b0a9ea25d7b8') in 0.075192 seconds
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '498e7fdd71babb202e8af4e193c983a1') in 0.012780 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
+Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Wall_Door_Large_02.prefab
-  artifactKey: Guid(9a4a17fb2cfda10498781ac3b3e96955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Wall_Door_Large_02.prefab using Guid(9a4a17fb2cfda10498781ac3b3e96955) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 0.000113 seconds.
+  path: Assets/PolygonDarkFantasy/Models/Collision/Convex/SM_Prop_Rope_Hanging_01_Convex.asset
+  artifactKey: Guid(56433abbc61d990469486c83bb780d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDarkFantasy/Models/Collision/Convex/SM_Prop_Rope_Hanging_01_Convex.asset using Guid(56433abbc61d990469486c83bb780d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '43437bd46ebfb6fbbd5d65dbf25f9e31') in 0.072370 seconds
+ -> (artifact id: '6e6006c6fb6e8e6b3d0f75b88b6b04a0') in 0.007801 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 40
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Wall_Brick_Greeble_04.prefab
-  artifactKey: Guid(45faa67156fdcf84eaa865496c10096b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Wall_Brick_Greeble_04.prefab using Guid(45faa67156fdcf84eaa865496c10096b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonDarkFantasy/Models/SM_Prop_Gibbet_01_Rope_02.fbx
+  artifactKey: Guid(fd58d9826942387429e4e1621b916adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDarkFantasy/Models/SM_Prop_Gibbet_01_Rope_02.fbx using Guid(fd58d9826942387429e4e1621b916adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '1964b53458b653296dc40c20be42952d') in 0.038904 seconds
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '10b5dc69479b1d4d5eb5b874c0925b2b') in 0.010588 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
+Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 0.160359 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Wall_Ruin_01.prefab
-  artifactKey: Guid(1d9dcf87351b2894c92c0dfd35da126d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Wall_Ruin_01.prefab using Guid(1d9dcf87351b2894c92c0dfd35da126d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonDarkFantasy/Models/SM_Prop_Noose_Rope_01.fbx
+  artifactKey: Guid(6cd91d5777d6579499694cdc855e0859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDarkFantasy/Models/SM_Prop_Noose_Rope_01.fbx using Guid(6cd91d5777d6579499694cdc855e0859) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '9abe49819defdbfb00cd841e98cd3a7c') in 0.064356 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Wall_Ruin_End_04.prefab
-  artifactKey: Guid(2d99c7c66d5f23c4a8963d692d6b9756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Wall_Ruin_End_04.prefab using Guid(2d99c7c66d5f23c4a8963d692d6b9756) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '2fada4e21f3111738c249085fefd5f41') in 0.057766 seconds
+ -> (artifact id: '4379b09d8ce19fe8f7693ecb397516c8') in 0.011759 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Wall_Window_Large_Top_02.prefab
-  artifactKey: Guid(39a5ff420c713a749bb7e20fa178a93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Wall_Window_Large_Top_02.prefab using Guid(39a5ff420c713a749bb7e20fa178a93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'b36bec8a7267e9bf8c286f99f3e3411a') in 0.065039 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 26
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Wall_Ruin_05.prefab
-  artifactKey: Guid(a50ae2bef52773b4aa24168eb91ed017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Wall_Ruin_05.prefab using Guid(a50ae2bef52773b4aa24168eb91ed017) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '054c1dc523d01e007d93ff346d06dc79') in 0.058140 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Wall_Ruin_End_01.prefab
-  artifactKey: Guid(605a19abbc44dea4eb9a88b6e9daa693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Wall_Ruin_End_01.prefab using Guid(605a19abbc44dea4eb9a88b6e9daa693) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'a14df08dd6f2213d8e90647dab5306ea') in 0.062198 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Wall_Window_01.prefab
-  artifactKey: Guid(81f94f49306f74f4c8a9b16dbbe13481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Wall_Window_01.prefab using Guid(81f94f49306f74f4c8a9b16dbbe13481) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '45c7f36ebba6424aeea584058304e957') in 0.066783 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 25
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Wall_Window_Tall_Double_02.prefab
-  artifactKey: Guid(b87f2bc6bf2e7bc41b11b0cfbbbbe253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Wall_Window_Tall_Double_02.prefab using Guid(b87f2bc6bf2e7bc41b11b0cfbbbbe253) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'b58ebac9feaf26aee5330d89c3f13b7c') in 0.065274 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 25
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Wall_Window_Tall_01.prefab
-  artifactKey: Guid(7c1e128316220a84bb0bc40be747db4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Wall_Window_Tall_01.prefab using Guid(7c1e128316220a84bb0bc40be747db4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '895f49d29a3c2d69995f99c8bbf4921a') in 0.061503 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 25
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Wall_Window_02.prefab
-  artifactKey: Guid(5192d7320577b7a4cb038ba76a691d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Wall_Window_02.prefab using Guid(5192d7320577b7a4cb038ba76a691d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'f3ec40bfd65319032333306a0a1a08f2') in 0.053295 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 25
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Wall_Window_Tall_Double_01.prefab
-  artifactKey: Guid(6d1a32d826f2e0546ac6ba990fc6d756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Wall_Window_Tall_Double_01.prefab using Guid(6d1a32d826f2e0546ac6ba990fc6d756) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'd739bf41b1865143ec47e9bd6b0b378a') in 0.055973 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 25
-========================================================================
-Received Import Request.
-  Time since last request: 0.534947 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Window_Village_01.prefab
-  artifactKey: Guid(636d77d15802ce542a2c7f2c4c07f853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Building/SM_Bld_Window_Village_01.prefab using Guid(636d77d15802ce542a2c7f2c4c07f853) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'a033531632a8d55f57d5a7cdc756060d') in 0.063977 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 31.341744 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Characters/SM_Chr_Demon_01.prefab
-  artifactKey: Guid(052a4d6f692dfd04cafe4b85b10af89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Characters/SM_Chr_Demon_01.prefab using Guid(052a4d6f692dfd04cafe4b85b10af89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '07ee5ded210a1a4a8e97fdbd737d2a04') in 0.062315 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 177
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Characters/SM_Chr_Witch_Female_01.prefab
-  artifactKey: Guid(20d542776ec1c654e9ac1fa0b28352fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Characters/SM_Chr_Witch_Female_01.prefab using Guid(20d542776ec1c654e9ac1fa0b28352fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '47c8df4bf214455fa7ce18711a983a03') in 0.081437 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 194
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Characters/SM_Chr_Priest_Female_01.prefab
-  artifactKey: Guid(986e018360fad2141a3487eee6ecd1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Characters/SM_Chr_Priest_Female_01.prefab using Guid(986e018360fad2141a3487eee6ecd1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '8033fb57c954bcd27e54b2b26f67196b') in 0.074103 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 205
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Characters/SM_Chr_Gravedigger_Male_01.prefab
-  artifactKey: Guid(c75009d75a4e3b44cbb3790162d25d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Characters/SM_Chr_Gravedigger_Male_01.prefab using Guid(c75009d75a4e3b44cbb3790162d25d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '1d3fd750d79c2b381f3f2a86a9bb65ad') in 0.066687 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 194
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Characters/SM_Chr_Skeleton_LightArmor_01.prefab
-  artifactKey: Guid(607007fb0ae97c840881977fdf820cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Characters/SM_Chr_Skeleton_LightArmor_01.prefab using Guid(607007fb0ae97c840881977fdf820cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '6c2b5d72321b07e1d55a2144df404feb') in 0.075214 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 194
-========================================================================
-Received Import Request.
-  Time since last request: 22.047428 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Environment/SM_Env_BackgroundHill_02.prefab
-  artifactKey: Guid(6f70e7cb264a3af48918e904fc090697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Environment/SM_Env_BackgroundHill_02.prefab using Guid(6f70e7cb264a3af48918e904fc090697) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'd623dc059e18dee8461d1e1413935ce5') in 0.057579 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Environment/SM_Env_Grunge_10.prefab
-  artifactKey: Guid(bc5d54e1e3f5d664f98c8db756e0ec01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Environment/SM_Env_Grunge_10.prefab using Guid(bc5d54e1e3f5d664f98c8db756e0ec01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '392f723c6abb19634a2341ae4fa166b6') in 0.244312 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Environment/SM_Env_Grunge_08.prefab
-  artifactKey: Guid(cd96eb2214c6c5043a0be2685d823250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Environment/SM_Env_Grunge_08.prefab using Guid(cd96eb2214c6c5043a0be2685d823250) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '829249c5c3058a2348acbec026096a9e') in 0.013427 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Environment/SM_Env_Ground_Grass_Round_01.prefab
-  artifactKey: Guid(bc334759345d8f942913c4792b219e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Environment/SM_Env_Ground_Grass_Round_01.prefab using Guid(bc334759345d8f942913c4792b219e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '61e8bf718e56c5102035150c21b2160e') in 0.040185 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Environment/SM_Env_Moss_04.prefab
-  artifactKey: Guid(3771a140e1bf9c246a6e49b984e2181e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Environment/SM_Env_Moss_04.prefab using Guid(3771a140e1bf9c246a6e49b984e2181e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '3ea53b28d5cf366708b0e0104bd828d9') in 0.272931 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Environment/SM_Env_Plant_Grass_Patch_01.prefab
-  artifactKey: Guid(78b5693ec098b2d439f90d7cacbfd78e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Environment/SM_Env_Plant_Grass_Patch_01.prefab using Guid(78b5693ec098b2d439f90d7cacbfd78e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'a191297672abc4770be59e12d5746b8d') in 0.045834 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Environment/SM_Env_Cliff_Basalt_02.prefab
-  artifactKey: Guid(dab18b94bd285514e9e88188800bc738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Environment/SM_Env_Cliff_Basalt_02.prefab using Guid(dab18b94bd285514e9e88188800bc738) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '487c95a217cfc2575462d9fdca170b75') in 0.050157 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Environment/SM_Env_Moss_05.prefab
-  artifactKey: Guid(b70aac24d797ebc4193f6d91f82f747c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Environment/SM_Env_Moss_05.prefab using Guid(b70aac24d797ebc4193f6d91f82f747c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '20173c2b3e445fdb6de613a8d78cd155') in 0.012717 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Environment/SM_Env_Rock_Cliff_01.prefab
-  artifactKey: Guid(3d8a1c82131c3a24b906f6557728e9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Environment/SM_Env_Rock_Cliff_01.prefab using Guid(3d8a1c82131c3a24b906f6557728e9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'c5dabc4aeac894ac3517ae03cae675cd') in 0.051676 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Environment/SM_Env_Tree_Dead_01.prefab
-  artifactKey: Guid(649cfd5a63de1c14da210383152753da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Environment/SM_Env_Tree_Dead_01.prefab using Guid(649cfd5a63de1c14da210383152753da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e25eb1fd076511e6d8f89010f5b8d79f') in 0.054344 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Environment/SM_Env_Basalt_04.prefab
-  artifactKey: Guid(82ad56f1934c2ca448972de668e5982f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Environment/SM_Env_Basalt_04.prefab using Guid(82ad56f1934c2ca448972de668e5982f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'd10600ffb5c77729f5bab2f649d8f13b') in 0.049531 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Environment/SM_Env_Ground_Grass_Small_01.prefab
-  artifactKey: Guid(474effde2f4970e469119b8d70eddc30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Environment/SM_Env_Ground_Grass_Small_01.prefab using Guid(474effde2f4970e469119b8d70eddc30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'd2225209dd0116a3932231d81c0ae1d5') in 0.049505 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Environment/SM_Env_Basalt_03.prefab
-  artifactKey: Guid(dafb0867a1ee55145bb0e2f47f964aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Environment/SM_Env_Basalt_03.prefab using Guid(dafb0867a1ee55145bb0e2f47f964aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '16ef67de7fc3cf51992195acc1ad2543') in 0.047197 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Environment/SM_Env_Ground_Dirt_Flat_01.prefab
-  artifactKey: Guid(acc68491e7c428d4f8607a9646115979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Environment/SM_Env_Ground_Dirt_Flat_01.prefab using Guid(acc68491e7c428d4f8607a9646115979) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'f2cceded3d4e736df6cb15b5b024c37a') in 0.054281 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Environment/SM_Env_Moss_03.prefab
-  artifactKey: Guid(2f4e14677d461564689eb2057c164d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Environment/SM_Env_Moss_03.prefab using Guid(2f4e14677d461564689eb2057c164d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '42795960161d62f483cf2b2a91355f4d') in 0.011954 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Environment/SM_Env_Grunge_04.prefab
-  artifactKey: Guid(5c759a144a1e5f6449ec7636ab68270e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Environment/SM_Env_Grunge_04.prefab using Guid(5c759a144a1e5f6449ec7636ab68270e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '7a9db52c7c17e5ec2dba4885eb6e6c72') in 0.018715 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Environment/SM_Env_Rock_02.prefab
-  artifactKey: Guid(9629320e0d4448e43aafe804522b3c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Environment/SM_Env_Rock_02.prefab using Guid(9629320e0d4448e43aafe804522b3c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'c6e26ba4bd04878c4ead47e596c7549d') in 0.054378 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Environment/SM_Env_Rock_Cliff_05.prefab
-  artifactKey: Guid(bb2a2b1241698db4b8db001ae5ac6618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Environment/SM_Env_Rock_Cliff_05.prefab using Guid(bb2a2b1241698db4b8db001ae5ac6618) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '0001f76f1535311181c8e8f615c316e1') in 0.058008 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Environment/SM_Env_Rock_Stairs_01.prefab
-  artifactKey: Guid(0dd1835ff8f956e4791567ebc64f7272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Environment/SM_Env_Rock_Stairs_01.prefab using Guid(0dd1835ff8f956e4791567ebc64f7272) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '188ed4f2af572aeb16fda8fa7ae974e5') in 0.052571 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Environment/SM_Env_Ground_Grass_Flat_01.prefab
-  artifactKey: Guid(7ba106441bd302e429ada8ccdbe83548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Environment/SM_Env_Ground_Grass_Flat_01.prefab using Guid(7ba106441bd302e429ada8ccdbe83548) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'f3200e5581460fc2380d6667c1265ec7') in 0.051472 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Environment/SM_Env_Vine_06.prefab
-  artifactKey: Guid(7ed5c4db155c42f41aa357fbf5ee43c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Environment/SM_Env_Vine_06.prefab using Guid(7ed5c4db155c42f41aa357fbf5ee43c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '9fd0923c213d454c29c4376da9b6c18b') in 4.368098 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Environment/SM_Env_Vine_10.prefab
-  artifactKey: Guid(3fecacc9fe214464cb93ed80d16c20d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Environment/SM_Env_Vine_10.prefab using Guid(3fecacc9fe214464cb93ed80d16c20d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '1fc68ec8796807bc9e883f740b44f331') in 0.017448 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Environment/SM_Env_Vine_01.prefab
-  artifactKey: Guid(5c9c674f945ae3d49a40d7ca5a64cc86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Environment/SM_Env_Vine_01.prefab using Guid(5c9c674f945ae3d49a40d7ca5a64cc86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '846bd4b8bb16abb8d6551a39db7191b0') in 0.017869 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
+Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
   Time since last request: 0.000017 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Environment/SM_Env_Ground_Dirt_Round_01.prefab
-  artifactKey: Guid(5e166fd7bc552c347a19f403f73f5207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Environment/SM_Env_Ground_Dirt_Round_01.prefab using Guid(5e166fd7bc552c347a19f403f73f5207) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  path: Assets/PolygonDarkFantasy/Models/SM_Prop_Noose_01.fbx
+  artifactKey: Guid(ac93663670b171a49b9bf87f411bd386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDarkFantasy/Models/SM_Prop_Noose_01.fbx using Guid(ac93663670b171a49b9bf87f411bd386) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '71caa6711c201cdb2f4c63b3d1f179ea') in 0.047949 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/PolygonDarkFantasy/Prefabs/Environment/SM_Env_Cliff_Basalt_04.prefab
-  artifactKey: Guid(4767bca14e4997f44bf8bcafa0c1757c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDarkFantasy/Prefabs/Environment/SM_Env_Cliff_Basalt_04.prefab using Guid(4767bca14e4997f44bf8bcafa0c1757c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'b3ab93a1f249ab99828232f01fec9898') in 0.054024 seconds
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8ff49b07a361d87587ef80a67241bde8') in 0.020661 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
+Number of asset objects unloaded after import = 12
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server
