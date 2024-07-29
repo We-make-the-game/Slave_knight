@@ -15,7 +15,7 @@ D:/Slave_Knight/Slave_knight/Dungeon_part1
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49176
+51452
 Successfully changed project path to: D:/Slave_Knight/Slave_knight/Dungeon_part1
 D:/Slave_Knight/Slave_knight/Dungeon_part1
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/Slave_Knight/Slave_knight/Dungeon_part1
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [31036] Host "[IP] 192.168.1.103 [Port] 0 [Flags] 2 [Guid] 3534922487 [EditorId] 3534922487 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IT94I1T) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [31044] Host "[IP] 192.168.1.103 [Port] 0 [Flags] 2 [Guid] 3535797585 [EditorId] 3535797585 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IT94I1T) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [31036] Host "[IP] 192.168.1.103 [Port] 0 [Flags] 2 [Guid] 3534922487 [EditorId] 3534922487 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IT94I1T) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [31044] Host "[IP] 192.168.1.103 [Port] 0 [Flags] 2 [Guid] 3535797585 [EditorId] 3535797585 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IT94I1T) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Refreshing native plugins compatible for Editor in 11.34 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 9.28 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.33f1 (b2c853adf198)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/Resources/UnitySubsystems
@@ -70,46 +70,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56128
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56868
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.022381 seconds.
-- Loaded All Assemblies, in  0.499 seconds
+Registered in 0.014291 seconds.
+- Loaded All Assemblies, in  0.459 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.365 seconds
-Domain Reload Profiling: 860ms
-	BeginReloadAssembly (153ms)
+- Finished resetting the current domain, in  0.316 seconds
+Domain Reload Profiling: 771ms
+	BeginReloadAssembly (132ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (47ms)
+	RebuildCommonClasses (41ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (101ms)
-	LoadAllAssembliesAndSetupDomain (182ms)
-		LoadAssemblies (149ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (193ms)
+		LoadAssemblies (129ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (178ms)
-			TypeCache.Refresh (177ms)
-				TypeCache.ScanAssembly (160ms)
+		AnalyzeDomain (190ms)
+			TypeCache.Refresh (189ms)
+				TypeCache.ScanAssembly (171ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (366ms)
+	FinalizeReload (317ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (271ms)
+		SetupLoadedEditorAssemblies (249ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (189ms)
-			ProcessInitializeOnLoadMethodAttributes (57ms)
+			ProcessInitializeOnLoadAttributes (169ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,8 +117,8 @@ Domain Reload Profiling: 860ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.800 seconds
-Refreshing native plugins compatible for Editor in 5.48 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.650 seconds
+Refreshing native plugins compatible for Editor in 3.46 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -126,47 +126,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.690 seconds
-Domain Reload Profiling: 1486ms
-	BeginReloadAssembly (221ms)
+- Finished resetting the current domain, in  0.736 seconds
+Domain Reload Profiling: 1383ms
+	BeginReloadAssembly (162ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
+		CreateAndSetChildDomain (20ms)
 	RebuildCommonClasses (42ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (62ms)
-	LoadAllAssembliesAndSetupDomain (460ms)
-		LoadAssemblies (335ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (383ms)
+		LoadAssemblies (297ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (234ms)
-			TypeCache.Refresh (209ms)
-				TypeCache.ScanAssembly (189ms)
-			ScanForSourceGeneratedMonoScriptInfo (16ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (691ms)
+		AnalyzeDomain (180ms)
+			TypeCache.Refresh (156ms)
+				TypeCache.ScanAssembly (142ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (737ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (516ms)
+		SetupLoadedEditorAssemblies (554ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (70ms)
-			ProcessInitializeOnLoadAttributes (398ms)
-			ProcessInitializeOnLoadMethodAttributes (22ms)
-			AfterProcessingInitializeOnLoad (13ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (404ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (24ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 3.98 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 4.49 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3116 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (30.3 KB). Loaded Objects now: 3604.
-Memory consumption went from 222.2 MB to 222.1 MB.
-Total: 2.990500 ms (FindLiveObjects: 0.245900 ms CreateObjectMapping: 0.215500 ms MarkObjects: 2.474000 ms  DeleteObjects: 0.053600 ms)
+Unloading 3118 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (30.3 KB). Loaded Objects now: 3606.
+Memory consumption went from 222.2 MB to 222.2 MB.
+Total: 2.574000 ms (FindLiveObjects: 0.243300 ms CreateObjectMapping: 0.199800 ms MarkObjects: 2.083800 ms  DeleteObjects: 0.046200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -184,154 +184,496 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 42390.749117 seconds.
-  path: Assets/PolygonDungeon/Models/SM_Env_Door_Large_Frame_02.fbx
-  artifactKey: Guid(f157eb1bc6eba664796e3911c2caa28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Models/SM_Env_Door_Large_Frame_02.fbx using Guid(f157eb1bc6eba664796e3911c2caa28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'ef97719bffbdb098c277c4a086848f68') in 0.154910 seconds
+  Time since last request: 71500.092362 seconds.
+  path: Assets/Scenes/dungeon_underground.unity
+  artifactKey: Guid(ac019ba97ab8b1348b74726a05282989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/dungeon_underground.unity using Guid(ac019ba97ab8b1348b74726a05282989) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '70470738841cef4b0ca0ccf35f28d92a') in 0.002470 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/PolygonDungeon/Models/SM_Env_Door_Large_Frame_01.fbx
-  artifactKey: Guid(b0decc80942868f45b69cb5bc50e233a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Models/SM_Env_Door_Large_Frame_01.fbx using Guid(b0decc80942868f45b69cb5bc50e233a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '1f3ebe2ccd1caf49dae69e06c27abf61') in 0.013151 seconds
+  Time since last request: 0.400775 seconds.
+  path: Assets/Scenes/dungeon_ground.unity
+  artifactKey: Guid(464e389c03d78ce4a837b7a1f3f1c663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/dungeon_ground.unity using Guid(464e389c03d78ce4a837b7a1f3f1c663) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cfaf12cc005c4b0cffd452a3fd4819cd') in 0.000379 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Door_Large_Frame_02_Convex 4.asset
-  artifactKey: Guid(a659479fedf8b8e46acf8f8ff3bbc078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Door_Large_Frame_02_Convex 4.asset using Guid(a659479fedf8b8e46acf8f8ff3bbc078) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'b34cabaaef003a09e6208caba49061cd') in 0.026186 seconds
+  Time since last request: 3.456816 seconds.
+  path: Assets/Scenes/castle_courtyard.unity
+  artifactKey: Guid(1a5a8ddc72123c84e89bc45c10fab321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/castle_courtyard.unity using Guid(1a5a8ddc72123c84e89bc45c10fab321) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9973d32d47e29e64027ad464f30a4e34') in 0.000408 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/PolygonDungeon/Models/SM_Env_Door_Large_Stone_02.fbx
-  artifactKey: Guid(44524f73f35ee994e822c75fe4be1e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Models/SM_Env_Door_Large_Stone_02.fbx using Guid(44524f73f35ee994e822c75fe4be1e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'f5f233eeefc644a7a4ba850cb9684eb4') in 0.011644 seconds
+  Time since last request: 3.441500 seconds.
+  path: Assets/Scenes/dungeon_elevator.unity
+  artifactKey: Guid(a7b38efe0f2799349991616bb7e036ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/dungeon_elevator.unity using Guid(a7b38efe0f2799349991616bb7e036ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4292700bf28687b8a8419f974e1031a8') in 0.000384 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Door_Large_Frame_01_Convex 1.asset
-  artifactKey: Guid(8374299ad29ee904fa000980a5845496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Models/CollisionConvex/SM_Env_Door_Large_Frame_01_Convex 1.asset using Guid(8374299ad29ee904fa000980a5845496) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 27.513681 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Textures/enchantedLeaves_01.tga
+  artifactKey: Guid(bc46cf18fb5791c49a032b0618b23834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Textures/enchantedLeaves_01.tga using Guid(bc46cf18fb5791c49a032b0618b23834) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '224e37efe2e095a85494552508635906') in 0.016260 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 3.149512 seconds.
-  path: Assets/PolygonDungeon/Models/CollisionConvex/SM_Prop_Door_Metal_01_Convex.asset
-  artifactKey: Guid(62dff2d4617029b438d9348dcce9eda6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Models/CollisionConvex/SM_Prop_Door_Metal_01_Convex.asset using Guid(62dff2d4617029b438d9348dcce9eda6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '89438eadc4827ca4ca2349bf2ec45158') in 0.007388 seconds
+ -> (artifact id: '91330557e66a16f2373007b03d994fb6') in 0.078935 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/PolygonDungeon/Models/SM_Prop_Toture_IronMaiden_01.fbx
-  artifactKey: Guid(d68a4dd458261334e8aae8faf9365045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Models/SM_Prop_Toture_IronMaiden_01.fbx using Guid(d68a4dd458261334e8aae8faf9365045) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Textures/PolygonNatureBiomesS2_Texture_01.png
+  artifactKey: Guid(d689fb6fa35035d4c8b994647ed716b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Textures/PolygonNatureBiomesS2_Texture_01.png using Guid(d689fb6fa35035d4c8b994647ed716b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'c50832e299edb95774a205adf81aece6') in 0.025047 seconds
+ -> (artifact id: 'ddf84004ba08d12d1aee905c60d2c328') in 0.032106 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.229911 seconds.
-  path: Assets/PolygonDungeon/Models/SM_Prop_Trap_Pit_01.fbx
-  artifactKey: Guid(c8231581b5e782e44ba71d50d92d592b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Models/SM_Prop_Trap_Pit_01.fbx using Guid(c8231581b5e782e44ba71d50d92d592b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '4ab8182e579ad57f76a110cf3db6af29') in 0.026879 seconds
+  Time since last request: 183.604000 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Prefabs
+  artifactKey: Guid(2189fafaaa6f3c24d83c30a3751fc690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Prefabs using Guid(2189fafaaa6f3c24d83c30a3751fc690) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b2e3b818ef391d71c76c1296f8830fa9') in 0.000545 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 19
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 9.470453 seconds.
-  path: Assets/PolygonDungeon/Models/CollisionConvex/SM_Prop_Toture_IronMaiden_01_Convex 1.asset
-  artifactKey: Guid(27d6f836238b56e4cbcb37402ab966f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Models/CollisionConvex/SM_Prop_Toture_IronMaiden_01_Convex 1.asset using Guid(27d6f836238b56e4cbcb37402ab966f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 159.866484 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Mushroom_Small_10.fbx
+  artifactKey: Guid(3231d68b966c25541b8a354e7990b48f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Mushroom_Small_10.fbx using Guid(3231d68b966c25541b8a354e7990b48f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'cafde90121d73d1294c593283faaaccb') in 0.025380 seconds
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6dbd46221c4d861ccc14d28e3333d1de') in 0.129308 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 20
 ========================================================================
 Received Import Request.
-  Time since last request: 3.381493 seconds.
-  path: Assets/PolygonDungeon/Prefabs/Characters/FixedScale/Character_Goblin_WarChief_FixedScale.prefab
-  artifactKey: Guid(9877270705d01b540aeaa38895b9f95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Prefabs/Characters/FixedScale/Character_Goblin_WarChief_FixedScale.prefab using Guid(9877270705d01b540aeaa38895b9f95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Undergrowth_Fern_03.fbx
+  artifactKey: Guid(c87b4b9483b57a9409eb64a1ab98c1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Undergrowth_Fern_03.fbx using Guid(c87b4b9483b57a9409eb64a1ab98c1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '5e6ba5fb94b0c5925d7d0dc29c8e451c') in 0.101379 seconds
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '85ada31f6809eee3f72b331dff6f848c') in 0.012986 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 232
+Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/PolygonDungeon/Prefabs/Characters/Character_Goblin_Warrior_Male.prefab
-  artifactKey: Guid(8cd752dc36d412b4bba2efd06775153a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Prefabs/Characters/Character_Goblin_Warrior_Male.prefab using Guid(8cd752dc36d412b4bba2efd06775153a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Undergrowth_Fern_10.fbx
+  artifactKey: Guid(591e0a431b6a2064e82b0be2ccda292d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Undergrowth_Fern_10.fbx using Guid(591e0a431b6a2064e82b0be2ccda292d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'f6a0f629c0f181902f6f4502d2d21ec6') in 0.040102 seconds
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fd48b3f40b57588f6c11cb9e6f8a9d0f') in 0.011531 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 230
+Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
-  Time since last request: 0.332636 seconds.
-  path: Assets/PolygonDungeon/Models/CollisionCustom/SM_Env_Wood_Bridge_Start_01_Collision.fbx
-  artifactKey: Guid(77ac671eaa793374c835c08f1cd0c0a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Models/CollisionCustom/SM_Env_Wood_Bridge_Start_01_Collision.fbx using Guid(77ac671eaa793374c835c08f1cd0c0a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Vines_03_Alt.fbx
+  artifactKey: Guid(47c10b1e356a3dd4f8c65a57c46f8e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Vines_03_Alt.fbx using Guid(47c10b1e356a3dd4f8c65a57c46f8e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'ae5ba574e304e46ff6f232bffe9307d7') in 0.010901 seconds
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '95d2e41ebc347c70c0f71e19ea693dd8') in 0.019348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Rock_Pebbles_02.fbx
+  artifactKey: Guid(a1ba1887add4d9c4887c02c39e1bdbe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Rock_Pebbles_02.fbx using Guid(a1ba1887add4d9c4887c02c39e1bdbe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '976e845e60bb0ef328f9e80805c1ce29') in 0.010443 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
   Time since last request: 0.000020 seconds.
-  path: Assets/PolygonDungeon/Models/SM_Env_Wood_Construction_02.fbx
-  artifactKey: Guid(88962166c07d2fd439e9f02fadfb095f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonDungeon/Models/SM_Env_Wood_Construction_02.fbx using Guid(88962166c07d2fd439e9f02fadfb095f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  path: Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Prop_Crystal_02.fbx
+  artifactKey: Guid(1b76af6038bff0546b9a77379b0cea0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Prop_Crystal_02.fbx using Guid(1b76af6038bff0546b9a77379b0cea0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'b9afe8388783d3807711bcb4b271c15e') in 0.012260 seconds
+ -> (artifact id: '92f09b7d490cfca27892283e8ac633bd') in 0.013438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Rock_Pebbles_04.fbx
+  artifactKey: Guid(a42d2016689a1a24a8f4f3a8429a1135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Rock_Pebbles_04.fbx using Guid(a42d2016689a1a24a8f4f3a8429a1135) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '033a24ccba693d23b42d5e3de96dbda5') in 0.012414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Prop_Crystal_08.fbx
+  artifactKey: Guid(9cef30b6abf901b4291d9f5cb3e4b060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Prop_Crystal_08.fbx using Guid(9cef30b6abf901b4291d9f5cb3e4b060) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9eb8fb7bfed92b05f3fc5e59e1bbbf2c') in 0.011584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Mushroom_Small_Group_05.fbx
+  artifactKey: Guid(fa810a2a8aa4529418a9d28b32a2b683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Mushroom_Small_Group_05.fbx using Guid(fa810a2a8aa4529418a9d28b32a2b683) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2c48f2d562e7c506f0525abeac1a4dbf') in 0.027580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Mushroom_Small_Group_06_Alt_01.fbx
+  artifactKey: Guid(da5c0f5a6b25d0b449cbbb9b7b7f68ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Mushroom_Small_Group_06_Alt_01.fbx using Guid(da5c0f5a6b25d0b449cbbb9b7b7f68ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9c2346f9b785fd3f55f72f3885d4e30d') in 0.027944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Roots_01.fbx
+  artifactKey: Guid(bebda7bb7bb0d3d4e84933036d77281f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Roots_01.fbx using Guid(bebda7bb7bb0d3d4e84933036d77281f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cc2c4e8bd3a3c621ed383c2c1e66ea6d') in 0.011439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Undergrowth_Fern_02.fbx
+  artifactKey: Guid(f56a2912e76320146b3ae8d4a27e99bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Undergrowth_Fern_02.fbx using Guid(f56a2912e76320146b3ae8d4a27e99bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6750fde57b2418e7a90c5adbc6107bf0') in 0.012690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Prop_Archway_01.fbx
+  artifactKey: Guid(ea0b660a0335ab3488637d6baf6e8205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Prop_Archway_01.fbx using Guid(ea0b660a0335ab3488637d6baf6e8205) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ff64b50aac54416c3f6436403f6eea9e') in 0.009860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Vines_03.fbx
+  artifactKey: Guid(6684353c94106ac408b3232d4c9cb7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Vines_03.fbx using Guid(6684353c94106ac408b3232d4c9cb7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4af672dffbf6d00bc535398526b8a677') in 0.022030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Roots_06.fbx
+  artifactKey: Guid(aa10a62c9a2b98e4b8156f17b7fa781f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Roots_06.fbx using Guid(aa10a62c9a2b98e4b8156f17b7fa781f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '342fdec0d5c865c5de84ad9231265c4b') in 0.013993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Roots_Small_01.fbx
+  artifactKey: Guid(a20397b90f3f8c04c941b94cdfa33f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Roots_Small_01.fbx using Guid(a20397b90f3f8c04c941b94cdfa33f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '54ba7239f53f231b726be415fe34a083') in 0.015032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Roots_Small_02.fbx
+  artifactKey: Guid(049bf58a9b930b644bfe50117f762fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Roots_Small_02.fbx using Guid(049bf58a9b930b644bfe50117f762fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3ffe47e15a7bd2089ac7d299360f9240') in 0.010927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Roots_Small_04.fbx
+  artifactKey: Guid(7ac8c3b6f7b8a8249993a2ba99749f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Roots_Small_04.fbx using Guid(7ac8c3b6f7b8a8249993a2ba99749f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9f9cac4ed57068bc9d6440ae1a29a8ae') in 0.012147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Undergrowth_Fern_01.fbx
+  artifactKey: Guid(e0501446b622fec4d84485f9e73676cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Undergrowth_Fern_01.fbx using Guid(e0501446b622fec4d84485f9e73676cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'de24883e4bf7d4022b90bd3f555dd762') in 0.013351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Mushroom_Small_Group_05_Alt_01.fbx
+  artifactKey: Guid(39a1d303f5d3e2d48be3ec6a2e9655ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Mushroom_Small_Group_05_Alt_01.fbx using Guid(39a1d303f5d3e2d48be3ec6a2e9655ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '956dfacb973f1c7ade9b104215072aa8') in 0.036728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Prop_Crystal_06.fbx
+  artifactKey: Guid(214d19eff3ab5384d829b06919cc4b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Prop_Crystal_06.fbx using Guid(214d19eff3ab5384d829b06919cc4b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '41a85d80484dc38215616c4baa6c841e') in 0.012163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Roots_Large_01.fbx
+  artifactKey: Guid(8e83d1343d4259946bdcab03e603a899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Roots_Large_01.fbx using Guid(8e83d1343d4259946bdcab03e603a899) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd5453f65f9a484055046717bcb520e9a') in 0.040779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Roots_02.fbx
+  artifactKey: Guid(d170ee0da7f43ed439e81880a9ad2fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Roots_02.fbx using Guid(d170ee0da7f43ed439e81880a9ad2fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7204b7ede8a06071c37b04df7aa8caab') in 0.009772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Roots_05.fbx
+  artifactKey: Guid(bdc8f79eff8e3ec4a90a9c27a60d08aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Roots_05.fbx using Guid(bdc8f79eff8e3ec4a90a9c27a60d08aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'badcba119fd4513ad842c848d5ea0636') in 0.017233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Mushroom_Small_Group_01.fbx
+  artifactKey: Guid(3a8e45857d94cfe4f9c3de40ed47db8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Mushroom_Small_Group_01.fbx using Guid(3a8e45857d94cfe4f9c3de40ed47db8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '872d811b7b54656d076aafeb0082380d') in 0.028639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Roots_Low_01.fbx
+  artifactKey: Guid(95e84338e0f428b46a4c94e193d86d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Roots_Low_01.fbx using Guid(95e84338e0f428b46a4c94e193d86d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dd3611717084628a3d86f23e58eca4df') in 0.014160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Mushroom_Small_Group_04_Alt_01.fbx
+  artifactKey: Guid(700f907491bbd934090beeccb6468daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Mushroom_Small_Group_04_Alt_01.fbx using Guid(700f907491bbd934090beeccb6468daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '72cc2f2e51afea55d8ef6a00f7beb841') in 0.028868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Roots_03.fbx
+  artifactKey: Guid(fc66ba1f3c598204dacfb4fc6558bade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Roots_03.fbx using Guid(fc66ba1f3c598204dacfb4fc6558bade) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '745dbb4c3ba7da96c7232e596b911221') in 0.010161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Prop_Crystal_05.fbx
+  artifactKey: Guid(b9f699376f0c9bb478607628a916083b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Prop_Crystal_05.fbx using Guid(b9f699376f0c9bb478607628a916083b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '62536cdb223218e309d1faf68d51bdfa') in 0.010533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Roots_Cluster_02.fbx
+  artifactKey: Guid(5454f03d516ca91499378619fe1e47c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Roots_Cluster_02.fbx using Guid(5454f03d516ca91499378619fe1e47c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8bc76295c3ad8fe8959759fafa505e97') in 0.010860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Rock_Pebbles_06.fbx
+  artifactKey: Guid(24bfdc067409dcc499a7b57a81096afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Rock_Pebbles_06.fbx using Guid(24bfdc067409dcc499a7b57a81096afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '68b9ab8c0884624d74503977476b31d6') in 0.010427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 498.507198 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Textures/Grass_Enchanted_normals.png
+  artifactKey: Guid(ff701aada95c569469a06345727ed805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Textures/Grass_Enchanted_normals.png using Guid(ff701aada95c569469a06345727ed805) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '797141b4842d7615e5e3f2e7c0b8563f') in 0.015557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.033000 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Ground_Grass_01.fbx
+  artifactKey: Guid(532b1be781b588c4e9b2b5ad791a28fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Ground_Grass_01.fbx using Guid(532b1be781b588c4e9b2b5ad791a28fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5f9ac26e5acdcb487945cd3a69f30557') in 0.019259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Ground_Grass_Flat_01.fbx
+  artifactKey: Guid(26718d15d59a06541a6095820596f4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Ground_Grass_Flat_01.fbx using Guid(26718d15d59a06541a6095820596f4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a83cc729da6ccd5429d8820122e466a9') in 0.018052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Ground_Grass_Round_01.fbx
+  artifactKey: Guid(5c63b6265d36f724ba1d6052008f459b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Enchanted_Forest/Models/SM_Env_Ground_Grass_Round_01.fbx using Guid(5c63b6265d36f724ba1d6052008f459b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1a07ba86ae11a28a485ba34091d32ac0') in 0.015169 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 7
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
