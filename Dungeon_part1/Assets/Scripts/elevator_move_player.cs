@@ -8,6 +8,9 @@ public class elevator_move_player : MonoBehaviour
     GameObject up_switch;
     GameObject down_switch;
     GameObject player;
+    GameObject up_ground_collider;
+    GameObject pressETxtUp;
+    GameObject pressETxtDown;
 
     void Awake()
     {
@@ -15,6 +18,12 @@ public class elevator_move_player : MonoBehaviour
         up_switch = GameObject.Find("elevetor/switch_top");
         down_switch = GameObject.Find("elevetor/switch_bottom");
         player = GameObject.Find("player");
+        up_ground_collider = GameObject.Find("floors_top/Collider");
+        pressETxtUp = GameObject.Find("pressEUp");
+        pressETxtDown = GameObject.Find("pressEDown");
+
+        pressETxtUp.SetActive(false); 
+        pressETxtDown.SetActive(false);
     }
 
     // Update is called once per frame
@@ -24,25 +33,28 @@ public class elevator_move_player : MonoBehaviour
     }
 
     void trigger_elevator() {
-        // player presses E 
-        if (Input.GetKeyDown(KeyCode.E))
+        // player in bottom switch trigger area and // evevator is up
+        if (player.transform.position.y < 0 && player.transform.position.x > -8 && player.transform.position.x < -6.8 && lift.transform.position.y > 0)
         {
-            // player in bottom switch trigger area and // evevator is up
-            if (player.transform.position.y < 0 && player.transform.position.x > -8 && player.transform.position.x < -6.8 && lift.transform.position.y > 0)
+            pressETxtDown.SetActive(true);
+            if (Input.GetKeyDown(KeyCode.E))
             {
-
                 up_switch.GetComponent<Animation>().Play("switch_rot_l");
                 down_switch.GetComponent<Animation>().Play("switch_rot_r");
                 lift.GetComponent<Animation>().Play("elevator_down");
             }
-            // player in up switch trigger area and // evevator is down
-            else if (player.transform.position.y > 0 && player.transform.position.x > -8 && player.transform.position.x < -6.8 && lift.transform.position.y < 0)
+        }
+        // player in up switch trigger area and // evevator is down
+        else if (player.transform.position.y > 0 && player.transform.position.x > -8 && player.transform.position.x < -6.8 && lift.transform.position.y < 0)
+        {
+            pressETxtUp.SetActive(true);
+            if (Input.GetKeyDown(KeyCode.E))
             {
                 down_switch.GetComponent<Animation>().Play("switch_rot_l");
                 up_switch.GetComponent<Animation>().Play("switch_rot_r");
                 lift.GetComponent<Animation>().Play("elevator_up");
             }
-        }   
+        } 
     }
 
     void OnTriggerEnter(Collider collider)
@@ -69,6 +81,16 @@ public class elevator_move_player : MonoBehaviour
 
     void liftAniEnd()
     {
+        CharacterControl.playerControl = true;
         player.transform.SetParent(null);
+        up_ground_collider.SetActive(true);
+    }
+    
+    void liftAniStart()
+    {
+        pressETxtUp.SetActive(false);
+        pressETxtDown.SetActive(false);
+        CharacterControl.playerControl = false;
+        up_ground_collider.SetActive(false);
     }
 }

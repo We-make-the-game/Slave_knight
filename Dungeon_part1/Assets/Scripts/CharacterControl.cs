@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class CharacterControl : MonoBehaviour
 {
+    public static bool playerControl;
+
     Rigidbody rb;
     BoxCollider coll;
     Animator playerAni;
@@ -16,6 +18,7 @@ public class CharacterControl : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        playerControl = true;
         rb = GetComponent<Rigidbody>();
         coll = GetComponent<BoxCollider>(); // 人物碰撞体
         playerAni = GetComponent<Animator>(); // 人物运动动画
@@ -24,7 +27,10 @@ public class CharacterControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        playerMoveUpdate();
+        if (playerControl)
+        {
+            playerMoveUpdate();
+        }
     }
 
     void playerMoveUpdate() 
