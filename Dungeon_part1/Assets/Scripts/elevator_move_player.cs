@@ -11,6 +11,7 @@ public class elevator_move_player : MonoBehaviour
     GameObject up_ground_collider;
     GameObject pressETxtUp;
     GameObject pressETxtDown;
+    GameObject camera;
 
     void Awake()
     {
@@ -18,6 +19,7 @@ public class elevator_move_player : MonoBehaviour
         up_switch = GameObject.Find("elevetor/switch_top");
         down_switch = GameObject.Find("elevetor/switch_bottom");
         player = GameObject.Find("player");
+        camera = GameObject.Find("Main Camera");
         up_ground_collider = GameObject.Find("floors_top/Collider");
         pressETxtUp = GameObject.Find("pressEUp");
         pressETxtDown = GameObject.Find("pressEDown");
@@ -62,6 +64,7 @@ public class elevator_move_player : MonoBehaviour
         if (collider.CompareTag("Player"))
         {
             player.transform.SetParent(lift.transform);
+            camera.transform.SetParent(lift.transform);
             // player take elevator
             if (lift.transform.position.y < 0) 
             {
@@ -83,6 +86,7 @@ public class elevator_move_player : MonoBehaviour
     {
         CharacterControl.playerControl = true;
         player.transform.SetParent(null);
+        camera.transform.SetParent(null);
         up_ground_collider.SetActive(true);
     }
     
