@@ -5816,7 +5816,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a960a1ea3be6402c82c291445999f43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneNameToLoad: dungeon_underground
 --- !u!65 &537543237
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9657,6 +9656,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 456302, guid: 4510076cf785f264a991b4cafbff1a1f, type: 3}
   m_PrefabInstance: {fileID: 884930981}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &891141954
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2424068391208479930, guid: 54bbe1360a61b4f0ba3d2960ffb5e5bf, type: 3}
+      propertyPath: m_Name
+      value: SceneSwitcher
+      objectReference: {fileID: 0}
+    - target: {fileID: 2791170358344301753, guid: 54bbe1360a61b4f0ba3d2960ffb5e5bf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.3565447
+      objectReference: {fileID: 0}
+    - target: {fileID: 2791170358344301753, guid: 54bbe1360a61b4f0ba3d2960ffb5e5bf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.49734005
+      objectReference: {fileID: 0}
+    - target: {fileID: 2791170358344301753, guid: 54bbe1360a61b4f0ba3d2960ffb5e5bf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.045700535
+      objectReference: {fileID: 0}
+    - target: {fileID: 2791170358344301753, guid: 54bbe1360a61b4f0ba3d2960ffb5e5bf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2791170358344301753, guid: 54bbe1360a61b4f0ba3d2960ffb5e5bf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2791170358344301753, guid: 54bbe1360a61b4f0ba3d2960ffb5e5bf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2791170358344301753, guid: 54bbe1360a61b4f0ba3d2960ffb5e5bf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2791170358344301753, guid: 54bbe1360a61b4f0ba3d2960ffb5e5bf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2791170358344301753, guid: 54bbe1360a61b4f0ba3d2960ffb5e5bf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2791170358344301753, guid: 54bbe1360a61b4f0ba3d2960ffb5e5bf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 54bbe1360a61b4f0ba3d2960ffb5e5bf, type: 3}
 --- !u!1001 &895882297
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24631,7 +24687,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a960a1ea3be6402c82c291445999f43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneNameToLoad: dungeon_ground
 --- !u!65 &2102024180
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25680,3 +25735,4 @@ SceneRoots:
   - {fileID: 442884848}
   - {fileID: 1449258469}
   - {fileID: 1452508466}
+  - {fileID: 891141954}
